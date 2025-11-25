@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from simple_interfaces/msg/TemperatureReading.msg
+// generated code does not contain a copyright notice
+
+
+module simple_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "TemperatureReading.msg" "\n"
+      "A simple temperature sensor reading")
+    struct TemperatureReading {
+      @verbatim (language="comment", text=
+        "Temperature in Celsius")
+      float temperature;
+
+      @verbatim (language="comment", text=
+        "Which sensor")
+      string sensor_id;
+    };
+  };
+};

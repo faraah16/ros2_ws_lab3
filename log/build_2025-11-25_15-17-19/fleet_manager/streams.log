@@ -1,0 +1,33 @@
+[2.402s] Invoking command in '/home/farah/ros2_ws/build/fleet_manager': AMENT_PREFIX_PATH=/home/farah/ros2_ws/install/fleet_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ros2_ws/install/fleet_interfaces LD_LIBRARY_PATH=/home/farah/ros2_ws/install/fleet_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/farah/ros2_ws/build/fleet_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages:/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/farah/ros2_ws/build/fleet_manager/build --no-deps symlink_data
+[3.245s] running develop
+[3.839s] running egg_info
+[3.840s] creating fleet_manager.egg-info
+[3.840s] writing fleet_manager.egg-info/PKG-INFO
+[3.842s] writing dependency_links to fleet_manager.egg-info/dependency_links.txt
+[3.845s] writing entry points to fleet_manager.egg-info/entry_points.txt
+[3.845s] writing requirements to fleet_manager.egg-info/requires.txt
+[3.847s] writing top-level names to fleet_manager.egg-info/top_level.txt
+[3.849s] writing manifest file 'fleet_manager.egg-info/SOURCES.txt'
+[3.853s] reading manifest file 'fleet_manager.egg-info/SOURCES.txt'
+[3.855s] writing manifest file 'fleet_manager.egg-info/SOURCES.txt'
+[3.866s] running build_ext
+[3.866s] Creating /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet-manager.egg-link (link to .)
+[3.870s] Installing fleet_monitor script to /home/farah/ros2_ws/install/fleet_manager/lib/fleet_manager
+[3.872s] Installing robot_simulator script to /home/farah/ros2_ws/install/fleet_manager/lib/fleet_manager
+[3.872s] 
+[3.873s] Installed /home/farah/ros2_ws/build/fleet_manager
+[3.873s] running symlink_data
+[3.876s] creating /home/farah/ros2_ws/install/fleet_manager/share/ament_index
+[3.877s] creating /home/farah/ros2_ws/install/fleet_manager/share/ament_index/resource_index
+[3.877s] creating /home/farah/ros2_ws/install/fleet_manager/share/ament_index/resource_index/packages
+[3.879s] symbolically linking /home/farah/ros2_ws/build/fleet_manager/resource/fleet_manager -> /home/farah/ros2_ws/install/fleet_manager/share/ament_index/resource_index/packages
+[3.879s] symbolically linking /home/farah/ros2_ws/build/fleet_manager/package.xml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager
+[3.880s] creating /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/launch
+[3.880s] symbolically linking /home/farah/ros2_ws/build/fleet_manager/launch/multi_robot_fleet.launch.py -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/launch
+[3.880s] creating /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+[3.880s] symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/cleaner_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+[3.881s] symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/scout_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+[3.884s] symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/multi_robot_fleet.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+[3.884s] symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/transporter_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+[3.885s] symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/fleet_monitor.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+[3.936s] Invoked command in '/home/farah/ros2_ws/build/fleet_manager' returned '0': AMENT_PREFIX_PATH=/home/farah/ros2_ws/install/fleet_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ros2_ws/install/fleet_interfaces LD_LIBRARY_PATH=/home/farah/ros2_ws/install/fleet_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/farah/ros2_ws/build/fleet_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages:/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/farah/ros2_ws/build/fleet_manager/build --no-deps symlink_data

@@ -1,0 +1,400 @@
+[0.000000] (-) TimerEvent: {}
+[0.003232] (-) JobUnselected: {'identifier': 'simple_interfaces'}
+[0.003368] (-) JobUnselected: {'identifier': 'simple_params'}
+[0.003463] (fleet_interfaces) JobQueued: {'identifier': 'fleet_interfaces', 'dependencies': OrderedDict()}
+[0.003559] (fleet_manager) JobQueued: {'identifier': 'fleet_manager', 'dependencies': OrderedDict([('fleet_interfaces', '/home/farah/ros2_ws/install/fleet_interfaces')])}
+[0.003759] (fleet_interfaces) JobStarted: {'identifier': 'fleet_interfaces'}
+[0.093866] (fleet_interfaces) JobProgress: {'identifier': 'fleet_interfaces', 'progress': 'cmake'}
+[0.098812] (fleet_interfaces) JobProgress: {'identifier': 'fleet_interfaces', 'progress': 'build'}
+[0.098995] (fleet_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/farah/ros2_ws/build/fleet_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/farah/ros2_ws/build/fleet_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'farah'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farah'), ('OLDPWD', '/home/farah/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1053'), ('SYSTEMD_EXEC_PID', '1271'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7349'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'farah'), ('JOURNAL_STREAM', '8:20530'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'farah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/farah-virtual-machine:@/tmp/.ICE-unix/1247,unix/farah-virtual-machine:/tmp/.ICE-unix/1247'), ('INVOCATION_ID', 'ffe6a4d233944bfcb8ad9654681ab392'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.140CG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c9d7ccd-5b85-4c77-b5e4-135a386df5a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farah/ros2_ws/build/fleet_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.130677] (-) TimerEvent: {}
+[0.235502] (-) TimerEvent: {}
+[0.337208] (-) TimerEvent: {}
+[0.440034] (-) TimerEvent: {}
+[0.542305] (-) TimerEvent: {}
+[0.644195] (-) TimerEvent: {}
+[0.746094] (-) TimerEvent: {}
+[0.850449] (-) TimerEvent: {}
+[0.936765] (fleet_interfaces) StdoutLine: {'line': b'[  1%] Built target fleet_interfaces__cpp\n'}
+[0.951876] (-) TimerEvent: {}
+[1.057245] (-) TimerEvent: {}
+[1.167920] (-) TimerEvent: {}
+[1.182843] (fleet_interfaces) StdoutLine: {'line': b'[ 12%] Built target fleet_interfaces__rosidl_generator_c\n'}
+[1.270092] (-) TimerEvent: {}
+[1.375026] (-) TimerEvent: {}
+[1.481048] (-) TimerEvent: {}
+[1.586166] (-) TimerEvent: {}
+[1.715822] (-) TimerEvent: {}
+[1.730447] (fleet_interfaces) StdoutLine: {'line': b'[ 23%] Built target fleet_interfaces__rosidl_typesupport_cpp\n'}
+[1.810753] (fleet_interfaces) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_copy_fleet_interfaces\n'}
+[1.817335] (-) TimerEvent: {}
+[1.925216] (-) TimerEvent: {}
+[2.026430] (-) TimerEvent: {}
+[2.134833] (-) TimerEvent: {}
+[2.166024] (fleet_interfaces) StdoutLine: {'line': b'[ 34%] Built target fleet_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.213762] (fleet_interfaces) StdoutLine: {'line': b'[ 45%] Built target fleet_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.235894] (-) TimerEvent: {}
+[2.339941] (-) TimerEvent: {}
+[2.419034] (fleet_interfaces) StdoutLine: {'line': b'[ 56%] Built target fleet_interfaces__rosidl_typesupport_c\n'}
+[2.443098] (-) TimerEvent: {}
+[2.555993] (-) TimerEvent: {}
+[2.669906] (-) TimerEvent: {}
+[2.677044] (fleet_interfaces) StdoutLine: {'line': b'[ 67%] Built target fleet_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.773804] (-) TimerEvent: {}
+[2.875988] (fleet_interfaces) StdoutLine: {'line': b'[ 78%] Built target fleet_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.876399] (-) TimerEvent: {}
+[2.980258] (-) TimerEvent: {}
+[3.083057] (-) TimerEvent: {}
+[3.185226] (-) TimerEvent: {}
+[3.204787] (fleet_interfaces) StdoutLine: {'line': b'[ 78%] Built target fleet_interfaces\n'}
+[3.285696] (-) TimerEvent: {}
+[3.388070] (-) TimerEvent: {}
+[3.433225] (fleet_interfaces) StdoutLine: {'line': b'[ 80%] Built target fleet_interfaces__py\n'}
+[3.488427] (-) TimerEvent: {}
+[3.592507] (-) TimerEvent: {}
+[3.694429] (-) TimerEvent: {}
+[3.796842] (-) TimerEvent: {}
+[3.816034] (fleet_interfaces) StdoutLine: {'line': b'[ 89%] Built target fleet_interfaces__rosidl_generator_py\n'}
+[3.898005] (-) TimerEvent: {}
+[4.004003] (-) TimerEvent: {}
+[4.107812] (-) TimerEvent: {}
+[4.139851] (fleet_interfaces) StdoutLine: {'line': b'[ 92%] Built target fleet_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.210021] (-) TimerEvent: {}
+[4.312252] (-) TimerEvent: {}
+[4.417532] (-) TimerEvent: {}
+[4.508972] (fleet_interfaces) StdoutLine: {'line': b'[ 96%] Built target fleet_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.519113] (-) TimerEvent: {}
+[4.624056] (-) TimerEvent: {}
+[4.720117] (fleet_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.727417] (fleet_interfaces) StdoutLine: {'line': b'writing fleet_interfaces.egg-info/PKG-INFO\n'}
+[4.728744] (-) TimerEvent: {}
+[4.733392] (fleet_interfaces) StdoutLine: {'line': b'writing dependency_links to fleet_interfaces.egg-info/dependency_links.txt\n'}
+[4.734471] (fleet_interfaces) StdoutLine: {'line': b'[100%] Built target fleet_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.738876] (fleet_interfaces) StdoutLine: {'line': b'writing top-level names to fleet_interfaces.egg-info/top_level.txt\n'}
+[4.750380] (fleet_interfaces) StdoutLine: {'line': b"reading manifest file 'fleet_interfaces.egg-info/SOURCES.txt'\n"}
+[4.754518] (fleet_interfaces) StdoutLine: {'line': b"writing manifest file 'fleet_interfaces.egg-info/SOURCES.txt'\n"}
+[4.829466] (-) TimerEvent: {}
+[4.881997] (fleet_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_fleet_interfaces_egg\n'}
+[4.930027] (-) TimerEvent: {}
+[4.976338] (fleet_interfaces) CommandEnded: {'returncode': 0}
+[4.984559] (fleet_interfaces) JobProgress: {'identifier': 'fleet_interfaces', 'progress': 'install'}
+[5.030573] (-) TimerEvent: {}
+[5.048980] (fleet_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/farah/ros2_ws/build/fleet_interfaces'], 'cwd': '/home/farah/ros2_ws/build/fleet_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'farah'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farah'), ('OLDPWD', '/home/farah/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1053'), ('SYSTEMD_EXEC_PID', '1271'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7349'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'farah'), ('JOURNAL_STREAM', '8:20530'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'farah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/farah-virtual-machine:@/tmp/.ICE-unix/1247,unix/farah-virtual-machine:/tmp/.ICE-unix/1247'), ('INVOCATION_ID', 'ffe6a4d233944bfcb8ad9654681ab392'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.140CG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c9d7ccd-5b85-4c77-b5e4-135a386df5a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farah/ros2_ws/build/fleet_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.117462] (fleet_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.123805] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/ament_index/resource_index/rosidl_interfaces/fleet_interfaces\n'}
+[5.128295] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces\n'}
+[5.130984] (-) TimerEvent: {}
+[5.131277] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv\n'}
+[5.131562] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/assign_task.h\n'}
+[5.138953] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/get_fleet_status.h\n'}
+[5.139309] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail\n'}
+[5.141536] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__functions.h\n'}
+[5.143539] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__struct.h\n'}
+[5.148521] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__struct.h\n'}
+[5.148927] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__functions.h\n'}
+[5.149199] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__functions.c\n'}
+[5.149527] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__type_support.h\n'}
+[5.158336] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__functions.c\n'}
+[5.167578] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__type_support.h\n'}
+[5.170559] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg\n'}
+[5.186135] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/robot_status.h\n'}
+[5.188474] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail\n'}
+[5.189174] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__functions.h\n'}
+[5.189576] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__type_support.h\n'}
+[5.193181] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__functions.h\n'}
+[5.193556] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__type_support.h\n'}
+[5.197073] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__struct.h\n'}
+[5.197508] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__struct.h\n'}
+[5.198043] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__functions.c\n'}
+[5.198406] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__functions.c\n'}
+[5.205796] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/fleet_command.h\n'}
+[5.206308] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.206927] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/library_path.sh\n'}
+[5.207215] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/library_path.dsv\n'}
+[5.213072] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_generator_c.so\n'}
+[5.216813] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces\n'}
+[5.217171] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv\n'}
+[5.217449] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail\n'}
+[5.224426] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__rosidl_typesupport_fastrtps_c.h\n'}
+[5.224989] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__rosidl_typesupport_fastrtps_c.h\n'}
+[5.225280] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg\n'}
+[5.227105] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail\n'}
+[5.227508] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[5.227866] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.228137] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.228415] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.233379] (-) TimerEvent: {}
+[5.233796] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces\n'}
+[5.237040] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv\n'}
+[5.242918] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail\n'}
+[5.243574] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__type_support.c\n'}
+[5.250173] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__type_support.c\n'}
+[5.269056] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__rosidl_typesupport_introspection_c.h\n'}
+[5.269454] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__rosidl_typesupport_introspection_c.h\n'}
+[5.270279] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg\n'}
+[5.276488] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail\n'}
+[5.277026] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__type_support.c\n'}
+[5.286548] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__rosidl_typesupport_introspection_c.h\n'}
+[5.294209] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[5.294875] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__type_support.c\n'}
+[5.295258] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.299760] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.300572] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_c.so\n'}
+[5.300987] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces\n'}
+[5.301264] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv\n'}
+[5.301565] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/assign_task.hpp\n'}
+[5.301951] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail\n'}
+[5.302220] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__traits.hpp\n'}
+[5.302486] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__traits.hpp\n'}
+[5.308270] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__struct.hpp\n'}
+[5.312211] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__builder.hpp\n'}
+[5.312551] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__struct.hpp\n'}
+[5.312942] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__builder.hpp\n'}
+[5.313266] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__type_support.hpp\n'}
+[5.313539] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__type_support.hpp\n'}
+[5.318407] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/get_fleet_status.hpp\n'}
+[5.318873] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg\n'}
+[5.326879] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/robot_status.hpp\n'}
+[5.327895] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/fleet_command.hpp\n'}
+[5.342815] (-) TimerEvent: {}
+[5.343320] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail\n'}
+[5.343776] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__builder.hpp\n'}
+[5.344118] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__type_support.hpp\n'}
+[5.344410] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__struct.hpp\n'}
+[5.347949] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__traits.hpp\n'}
+[5.348327] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__builder.hpp\n'}
+[5.348735] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__traits.hpp\n'}
+[5.349025] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__struct.hpp\n'}
+[5.349293] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__type_support.hpp\n'}
+[5.349564] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.352128] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces\n'}
+[5.352564] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv\n'}
+[5.360226] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail\n'}
+[5.360580] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/dds_fastrtps\n'}
+[5.361049] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.361330] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.363844] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg\n'}
+[5.364488] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail\n'}
+[5.365091] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.365482] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/dds_fastrtps\n'}
+[5.367418] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.367827] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.371899] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.375419] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces\n'}
+[5.380188] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv\n'}
+[5.382487] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail\n'}
+[5.382898] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__type_support.cpp\n'}
+[5.383192] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.383517] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.393793] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__type_support.cpp\n'}
+[5.399523] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg\n'}
+[5.399967] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail\n'}
+[5.401990] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.402277] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__type_support.cpp\n'}
+[5.410350] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__type_support.cpp\n'}
+[5.410926] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.411268] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.418865] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.428433] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/pythonpath.sh\n'}
+[5.428914] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/pythonpath.dsv\n'}
+[5.429263] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces-1.0.0-py3.10.egg-info\n'}
+[5.431822] (fleet_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.432418] (fleet_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.432860] (fleet_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.433160] (fleet_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.433440] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces\n'}
+[5.434886] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/_fleet_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.435176] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv\n'}
+[5.435471] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv/__init__.py\n'}
+[5.441375] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv/_get_fleet_status_s.c\n'}
+[5.443163] (-) TimerEvent: {}
+[5.443524] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv/_assign_task.py\n'}
+[5.443945] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv/_assign_task_s.c\n'}
+[5.447009] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv/_get_fleet_status.py\n'}
+[5.447393] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/__init__.py\n'}
+[5.447808] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg\n'}
+[5.449062] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg/__init__.py\n'}
+[5.449405] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg/_fleet_command_s.c\n'}
+[5.449833] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg/_robot_status.py\n'}
+[5.450769] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg/_robot_status_s.c\n'}
+[5.451082] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg/_fleet_command.py\n'}
+[5.451363] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.451753] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.452061] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/libfleet_interfaces__rosidl_generator_py.so\n'}
+[5.452348] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.452750] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/_fleet_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.453483] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/_fleet_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.544001] (-) TimerEvent: {}
+[5.639299] (fleet_interfaces) StdoutLine: {'line': b"Listing '/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces'...\n"}
+[5.639823] (fleet_interfaces) StdoutLine: {'line': b"Listing '/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg'...\n"}
+[5.641050] (fleet_interfaces) StdoutLine: {'line': b"Listing '/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv'...\n"}
+[5.644562] (-) TimerEvent: {}
+[5.657834] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.665245] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.672262] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.687236] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_generator_py.so\n'}
+[5.694732] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/msg/RobotStatus.idl\n'}
+[5.697567] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/msg/FleetCommand.idl\n'}
+[5.698004] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/AssignTask.idl\n'}
+[5.698421] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/GetFleetStatus.idl\n'}
+[5.701386] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/msg/RobotStatus.msg\n'}
+[5.701814] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/msg/FleetCommand.msg\n'}
+[5.705768] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/AssignTask.srv\n'}
+[5.706144] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/AssignTask_Request.msg\n'}
+[5.706414] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/AssignTask_Response.msg\n'}
+[5.706784] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/GetFleetStatus.srv\n'}
+[5.708964] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/GetFleetStatus_Request.msg\n'}
+[5.709245] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/GetFleetStatus_Response.msg\n'}
+[5.713522] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/ament_index/resource_index/package_run_dependencies/fleet_interfaces\n'}
+[5.715096] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/ament_index/resource_index/parent_prefix_path/fleet_interfaces\n'}
+[5.715372] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/ament_prefix_path.sh\n'}
+[5.717789] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.718269] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/path.sh\n'}
+[5.718536] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/path.dsv\n'}
+[5.721954] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/local_setup.bash\n'}
+[5.722282] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/local_setup.sh\n'}
+[5.722551] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/local_setup.zsh\n'}
+[5.722930] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/local_setup.dsv\n'}
+[5.725901] (fleet_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/package.dsv\n'}
+[5.726987] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/ament_index/resource_index/packages/fleet_interfaces\n'}
+[5.727402] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.730883] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.732526] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.735229] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.735516] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.735895] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.736232] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.741434] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.741874] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.742201] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.742475] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.746802] (-) TimerEvent: {}
+[5.750027] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.750380] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.750753] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.753968] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.755885] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.756211] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.756733] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.757038] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.757306] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.757569] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.762438] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.762817] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.763894] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.764208] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfacesConfig.cmake\n'}
+[5.764472] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfacesConfig-version.cmake\n'}
+[5.766882] (fleet_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/package.xml\n'}
+[5.783559] (fleet_interfaces) CommandEnded: {'returncode': 0}
+[5.849046] (-) TimerEvent: {}
+[5.892277] (fleet_interfaces) JobEnded: {'identifier': 'fleet_interfaces', 'rc': 0}
+[5.909358] (fleet_manager) JobStarted: {'identifier': 'fleet_manager'}
+[5.953860] (-) TimerEvent: {}
+[6.057131] (-) TimerEvent: {}
+[6.163030] (-) TimerEvent: {}
+[6.264916] (-) TimerEvent: {}
+[6.368078] (-) TimerEvent: {}
+[6.472462] (-) TimerEvent: {}
+[6.579465] (-) TimerEvent: {}
+[6.681840] (-) TimerEvent: {}
+[6.783357] (-) TimerEvent: {}
+[6.884892] (-) TimerEvent: {}
+[6.985915] (-) TimerEvent: {}
+[7.092063] (-) TimerEvent: {}
+[7.196033] (-) TimerEvent: {}
+[7.305995] (-) TimerEvent: {}
+[7.408504] (-) TimerEvent: {}
+[7.511283] (-) TimerEvent: {}
+[7.612566] (-) TimerEvent: {}
+[7.714043] (-) TimerEvent: {}
+[7.822338] (-) TimerEvent: {}
+[7.923856] (-) TimerEvent: {}
+[8.028159] (-) TimerEvent: {}
+[8.131832] (-) TimerEvent: {}
+[8.233407] (-) TimerEvent: {}
+[8.336372] (-) TimerEvent: {}
+[8.439757] (-) TimerEvent: {}
+[8.541184] (-) TimerEvent: {}
+[8.647135] (-) TimerEvent: {}
+[8.748199] (-) TimerEvent: {}
+[8.852890] (-) TimerEvent: {}
+[8.910884] (fleet_manager) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/farah/ros2_ws/build/fleet_manager/build'], 'cwd': '/home/farah/ros2_ws/build/fleet_manager', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'farah', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/farah/ros2_ws/install/fleet_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/farah', 'OLDPWD': '/home/farah/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1053', 'SYSTEMD_EXEC_PID': '1271', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7349', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'farah', 'JOURNAL_STREAM': '8:20530', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'farah', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/farah-virtual-machine:@/tmp/.ICE-unix/1247,unix/farah-virtual-machine:/tmp/.ICE-unix/1247', 'INVOCATION_ID': 'ffe6a4d233944bfcb8ad9654681ab392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.140CG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/farah/ros2_ws/install/fleet_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:8c9d7ccd-5b85-4c77-b5e4-135a386df5a9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/farah/ros2_ws/build/fleet_manager', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/farah/ros2_ws/build/fleet_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages:/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/farah/ros2_ws/install/fleet_interfaces'}, 'shell': False}
+[8.954833] (-) TimerEvent: {}
+[9.056226] (-) TimerEvent: {}
+[9.161406] (-) TimerEvent: {}
+[9.264861] (-) TimerEvent: {}
+[9.365747] (-) TimerEvent: {}
+[9.468879] (-) TimerEvent: {}
+[9.572052] (-) TimerEvent: {}
+[9.673359] (-) TimerEvent: {}
+[9.774980] (-) TimerEvent: {}
+[9.875980] (-) TimerEvent: {}
+[9.976964] (-) TimerEvent: {}
+[10.032116] (fleet_manager) StdoutLine: {'line': b'running develop\n'}
+[10.077473] (-) TimerEvent: {}
+[10.179866] (-) TimerEvent: {}
+[10.280853] (-) TimerEvent: {}
+[10.383334] (-) TimerEvent: {}
+[10.485679] (-) TimerEvent: {}
+[10.588210] (-) TimerEvent: {}
+[10.679512] (fleet_manager) StdoutLine: {'line': b'Removing /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet-manager.egg-link (link to .)\n'}
+[10.691980] (-) TimerEvent: {}
+[10.746818] (fleet_manager) CommandEnded: {'returncode': 0}
+[10.747490] (fleet_manager) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fleet_manager', 'build', '--build-base', '/home/farah/ros2_ws/build/fleet_manager/build', 'install', '--record', '/home/farah/ros2_ws/build/fleet_manager/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/farah/ros2_ws/src/fleet_manager', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'farah', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/farah/ros2_ws/install/fleet_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/farah', 'OLDPWD': '/home/farah/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1053', 'SYSTEMD_EXEC_PID': '1271', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7349', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'farah', 'JOURNAL_STREAM': '8:20530', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'farah', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/farah-virtual-machine:@/tmp/.ICE-unix/1247,unix/farah-virtual-machine:/tmp/.ICE-unix/1247', 'INVOCATION_ID': 'ffe6a4d233944bfcb8ad9654681ab392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.140CG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/farah/ros2_ws/install/fleet_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:8c9d7ccd-5b85-4c77-b5e4-135a386df5a9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/farah/ros2_ws/build/fleet_manager', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/farah/ros2_ws/build/fleet_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages:/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/farah/ros2_ws/install/fleet_interfaces'}, 'shell': False}
+[10.793118] (-) TimerEvent: {}
+[10.896366] (-) TimerEvent: {}
+[10.997485] (-) TimerEvent: {}
+[11.098868] (-) TimerEvent: {}
+[11.199873] (-) TimerEvent: {}
+[11.301009] (-) TimerEvent: {}
+[11.403817] (-) TimerEvent: {}
+[11.505078] (-) TimerEvent: {}
+[11.607875] (-) TimerEvent: {}
+[11.708850] (-) TimerEvent: {}
+[11.795583] (fleet_manager) StdoutLine: {'line': b'running egg_info\n'}
+[11.799895] (fleet_manager) StdoutLine: {'line': b'writing ../../build/fleet_manager/fleet_manager.egg-info/PKG-INFO\n'}
+[11.800491] (fleet_manager) StdoutLine: {'line': b'writing dependency_links to ../../build/fleet_manager/fleet_manager.egg-info/dependency_links.txt\n'}
+[11.806249] (fleet_manager) StdoutLine: {'line': b'writing entry points to ../../build/fleet_manager/fleet_manager.egg-info/entry_points.txt\n'}
+[11.806717] (fleet_manager) StdoutLine: {'line': b'writing requirements to ../../build/fleet_manager/fleet_manager.egg-info/requires.txt\n'}
+[11.806994] (fleet_manager) StdoutLine: {'line': b'writing top-level names to ../../build/fleet_manager/fleet_manager.egg-info/top_level.txt\n'}
+[11.809828] (-) TimerEvent: {}
+[11.813861] (fleet_manager) StdoutLine: {'line': b"reading manifest file '../../build/fleet_manager/fleet_manager.egg-info/SOURCES.txt'\n"}
+[11.819320] (fleet_manager) StdoutLine: {'line': b"writing manifest file '../../build/fleet_manager/fleet_manager.egg-info/SOURCES.txt'\n"}
+[11.821196] (fleet_manager) StdoutLine: {'line': b'running build\n'}
+[11.825332] (fleet_manager) StdoutLine: {'line': b'running build_py\n'}
+[11.826961] (fleet_manager) StdoutLine: {'line': b'creating /home/farah/ros2_ws/build/fleet_manager/build\n'}
+[11.829137] (fleet_manager) StdoutLine: {'line': b'creating /home/farah/ros2_ws/build/fleet_manager/build/lib\n'}
+[11.831293] (fleet_manager) StdoutLine: {'line': b'creating /home/farah/ros2_ws/build/fleet_manager/build/lib/fleet_manager\n'}
+[11.832275] (fleet_manager) StdoutLine: {'line': b'copying fleet_manager/__init__.py -> /home/farah/ros2_ws/build/fleet_manager/build/lib/fleet_manager\n'}
+[11.832547] (fleet_manager) StdoutLine: {'line': b'copying fleet_manager/robot_simulator.py -> /home/farah/ros2_ws/build/fleet_manager/build/lib/fleet_manager\n'}
+[11.836887] (fleet_manager) StdoutLine: {'line': b'copying fleet_manager/fleet_monitor.py -> /home/farah/ros2_ws/build/fleet_manager/build/lib/fleet_manager\n'}
+[11.837392] (fleet_manager) StdoutLine: {'line': b'running install\n'}
+[11.843928] (fleet_manager) StdoutLine: {'line': b'running install_lib\n'}
+[11.844421] (fleet_manager) StdoutLine: {'line': b'creating /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet_manager\n'}
+[11.848045] (fleet_manager) StdoutLine: {'line': b'copying /home/farah/ros2_ws/build/fleet_manager/build/lib/fleet_manager/__init__.py -> /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet_manager\n'}
+[11.848384] (fleet_manager) StdoutLine: {'line': b'copying /home/farah/ros2_ws/build/fleet_manager/build/lib/fleet_manager/robot_simulator.py -> /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet_manager\n'}
+[11.848761] (fleet_manager) StdoutLine: {'line': b'copying /home/farah/ros2_ws/build/fleet_manager/build/lib/fleet_manager/fleet_monitor.py -> /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet_manager\n'}
+[11.851918] (fleet_manager) StdoutLine: {'line': b'byte-compiling /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet_manager/__init__.py to __init__.cpython-310.pyc\n'}
+[11.852430] (fleet_manager) StdoutLine: {'line': b'byte-compiling /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet_manager/robot_simulator.py to robot_simulator.cpython-310.pyc\n'}
+[11.863178] (fleet_manager) StdoutLine: {'line': b'byte-compiling /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet_manager/fleet_monitor.py to fleet_monitor.cpython-310.pyc\n'}
+[11.879407] (fleet_manager) StdoutLine: {'line': b'running install_data\n'}
+[11.888047] (fleet_manager) StdoutLine: {'line': b'copying resource/fleet_manager -> /home/farah/ros2_ws/install/fleet_manager/share/ament_index/resource_index/packages\n'}
+[11.891045] (fleet_manager) StdoutLine: {'line': b'copying package.xml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager\n'}
+[11.893148] (fleet_manager) StdoutLine: {'line': b'copying launch/single_robot.launch.py -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/launch\n'}
+[11.895386] (fleet_manager) StdoutLine: {'line': b'copying launch/multi_robot_fleet.launch.py -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/launch\n'}
+[11.897730] (fleet_manager) StdoutLine: {'line': b'copying config/cleaner_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[11.899158] (fleet_manager) StdoutLine: {'line': b'copying config/scout_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[11.902028] (fleet_manager) StdoutLine: {'line': b'copying config/multi_robot_fleet.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[11.905307] (fleet_manager) StdoutLine: {'line': b'copying config/transporter_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[11.907040] (fleet_manager) StdoutLine: {'line': b'copying config/fleet_monitor.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[11.909502] (fleet_manager) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.910059] (-) TimerEvent: {}
+[11.912120] (fleet_manager) StdoutLine: {'line': b'Copying ../../build/fleet_manager/fleet_manager.egg-info to /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet_manager-1.0.0-py3.10.egg-info\n'}
+[11.914706] (fleet_manager) StdoutLine: {'line': b'running install_scripts\n'}
+[11.990945] (fleet_manager) StdoutLine: {'line': b'Installing fleet_monitor script to /home/farah/ros2_ws/install/fleet_manager/lib/fleet_manager\n'}
+[11.993334] (fleet_manager) StdoutLine: {'line': b'Installing robot_simulator script to /home/farah/ros2_ws/install/fleet_manager/lib/fleet_manager\n'}
+[12.001141] (fleet_manager) StdoutLine: {'line': b"writing list of installed files to '/home/farah/ros2_ws/build/fleet_manager/install.log'\n"}
+[12.016411] (-) TimerEvent: {}
+[12.062499] (fleet_manager) CommandEnded: {'returncode': 0}
+[12.106585] (fleet_manager) JobEnded: {'identifier': 'fleet_manager', 'rc': 0}
+[12.111569] (-) EventReactorShutdown: {}

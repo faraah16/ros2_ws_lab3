@@ -1,0 +1,12 @@
+msg/FleetCommand.idl
+msg/FleetCommand.msg
+msg/RobotStatus.idl
+msg/RobotStatus.msg
+srv/AssignTask.idl
+srv/AssignTask.srv
+srv/AssignTask_Request.msg
+srv/AssignTask_Response.msg
+srv/GetFleetStatus.idl
+srv/GetFleetStatus.srv
+srv/GetFleetStatus_Request.msg
+srv/GetFleetStatus_Response.msg

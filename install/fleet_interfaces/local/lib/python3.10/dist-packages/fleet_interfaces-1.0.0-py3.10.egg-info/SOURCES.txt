@@ -1,0 +1,12 @@
+setup.py
+fleet_interfaces/__init__.py
+fleet_interfaces.egg-info/PKG-INFO
+fleet_interfaces.egg-info/SOURCES.txt
+fleet_interfaces.egg-info/dependency_links.txt
+fleet_interfaces.egg-info/top_level.txt
+fleet_interfaces/msg/__init__.py
+fleet_interfaces/msg/_fleet_command.py
+fleet_interfaces/msg/_robot_status.py
+fleet_interfaces/srv/__init__.py
+fleet_interfaces/srv/_assign_task.py
+fleet_interfaces/srv/_get_fleet_status.py

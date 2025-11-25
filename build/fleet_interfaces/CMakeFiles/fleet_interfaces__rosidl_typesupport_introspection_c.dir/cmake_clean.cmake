@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_interfaces/msg/detail/fleet_command__type_support.c.o"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_interfaces/msg/detail/fleet_command__type_support.c.o.d"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_interfaces/msg/detail/robot_status__type_support.c.o"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_interfaces/msg/detail/robot_status__type_support.c.o.d"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_interfaces/srv/detail/assign_task__type_support.c.o"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_interfaces/srv/detail/assign_task__type_support.c.o.d"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_interfaces/srv/detail/get_fleet_status__type_support.c.o"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_interfaces/srv/detail/get_fleet_status__type_support.c.o.d"
+  "libfleet_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libfleet_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/fleet_interfaces/msg/detail/fleet_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fleet_interfaces/msg/detail/fleet_command__type_support.c"
+  "rosidl_typesupport_introspection_c/fleet_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fleet_interfaces/msg/detail/robot_status__type_support.c"
+  "rosidl_typesupport_introspection_c/fleet_interfaces/srv/detail/assign_task__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fleet_interfaces/srv/detail/assign_task__type_support.c"
+  "rosidl_typesupport_introspection_c/fleet_interfaces/srv/detail/get_fleet_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fleet_interfaces/srv/detail/get_fleet_status__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/fleet_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

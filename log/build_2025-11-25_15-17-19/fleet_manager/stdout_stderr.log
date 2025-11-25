@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating fleet_manager.egg-info
+writing fleet_manager.egg-info/PKG-INFO
+writing dependency_links to fleet_manager.egg-info/dependency_links.txt
+writing entry points to fleet_manager.egg-info/entry_points.txt
+writing requirements to fleet_manager.egg-info/requires.txt
+writing top-level names to fleet_manager.egg-info/top_level.txt
+writing manifest file 'fleet_manager.egg-info/SOURCES.txt'
+reading manifest file 'fleet_manager.egg-info/SOURCES.txt'
+writing manifest file 'fleet_manager.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet-manager.egg-link (link to .)
+Installing fleet_monitor script to /home/farah/ros2_ws/install/fleet_manager/lib/fleet_manager
+Installing robot_simulator script to /home/farah/ros2_ws/install/fleet_manager/lib/fleet_manager
+
+Installed /home/farah/ros2_ws/build/fleet_manager
+running symlink_data
+creating /home/farah/ros2_ws/install/fleet_manager/share/ament_index
+creating /home/farah/ros2_ws/install/fleet_manager/share/ament_index/resource_index
+creating /home/farah/ros2_ws/install/fleet_manager/share/ament_index/resource_index/packages
+symbolically linking /home/farah/ros2_ws/build/fleet_manager/resource/fleet_manager -> /home/farah/ros2_ws/install/fleet_manager/share/ament_index/resource_index/packages
+symbolically linking /home/farah/ros2_ws/build/fleet_manager/package.xml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager
+creating /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/launch
+symbolically linking /home/farah/ros2_ws/build/fleet_manager/launch/multi_robot_fleet.launch.py -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/launch
+creating /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/cleaner_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/scout_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/multi_robot_fleet.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/transporter_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config
+symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/fleet_monitor.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config

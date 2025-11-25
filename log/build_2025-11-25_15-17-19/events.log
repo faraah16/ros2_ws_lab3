@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000553] (-) JobUnselected: {'identifier': 'fleet_interfaces'}
+[0.000766] (-) JobUnselected: {'identifier': 'simple_interfaces'}
+[0.000863] (-) JobUnselected: {'identifier': 'simple_params'}
+[0.000948] (fleet_manager) JobQueued: {'identifier': 'fleet_manager', 'dependencies': OrderedDict([('fleet_interfaces', '/home/farah/ros2_ws/install/fleet_interfaces')])}
+[0.001102] (fleet_manager) JobStarted: {'identifier': 'fleet_manager'}
+[0.097260] (-) TimerEvent: {}
+[0.198759] (-) TimerEvent: {}
+[0.300806] (-) TimerEvent: {}
+[0.401845] (-) TimerEvent: {}
+[0.502854] (-) TimerEvent: {}
+[0.603736] (-) TimerEvent: {}
+[0.706309] (-) TimerEvent: {}
+[0.808986] (-) TimerEvent: {}
+[0.916261] (-) TimerEvent: {}
+[1.019301] (-) TimerEvent: {}
+[1.121231] (-) TimerEvent: {}
+[1.224010] (-) TimerEvent: {}
+[1.325589] (-) TimerEvent: {}
+[1.427780] (-) TimerEvent: {}
+[1.532392] (-) TimerEvent: {}
+[1.635991] (-) TimerEvent: {}
+[1.739242] (-) TimerEvent: {}
+[1.839989] (-) TimerEvent: {}
+[1.942843] (-) TimerEvent: {}
+[2.044221] (-) TimerEvent: {}
+[2.145730] (-) TimerEvent: {}
+[2.247615] (-) TimerEvent: {}
+[2.349630] (-) TimerEvent: {}
+[2.393797] (fleet_manager) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/farah/ros2_ws/build/fleet_manager/build', '--no-deps', 'symlink_data'], 'cwd': '/home/farah/ros2_ws/build/fleet_manager', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'farah', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/farah/ros2_ws/install/fleet_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/farah', 'OLDPWD': '/home/farah', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1053', 'SYSTEMD_EXEC_PID': '1271', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7349', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'farah', 'JOURNAL_STREAM': '8:20530', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'farah', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/farah-virtual-machine:@/tmp/.ICE-unix/1247,unix/farah-virtual-machine:/tmp/.ICE-unix/1247', 'INVOCATION_ID': 'ffe6a4d233944bfcb8ad9654681ab392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.140CG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/farah/ros2_ws/install/fleet_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:18df82b8-c27f-4891-8e06-88cd7e4b3221', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/farah/ros2_ws/build/fleet_manager', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/farah/ros2_ws/build/fleet_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages:/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/farah/ros2_ws/install/fleet_interfaces'}, 'shell': False}
+[2.451215] (-) TimerEvent: {}
+[2.551791] (-) TimerEvent: {}
+[2.653231] (-) TimerEvent: {}
+[2.753795] (-) TimerEvent: {}
+[2.856339] (-) TimerEvent: {}
+[2.957295] (-) TimerEvent: {}
+[3.058253] (-) TimerEvent: {}
+[3.160213] (-) TimerEvent: {}
+[3.246383] (fleet_manager) StdoutLine: {'line': b'running develop\n'}
+[3.260503] (-) TimerEvent: {}
+[3.363008] (-) TimerEvent: {}
+[3.464596] (-) TimerEvent: {}
+[3.567687] (-) TimerEvent: {}
+[3.668648] (-) TimerEvent: {}
+[3.769599] (-) TimerEvent: {}
+[3.840337] (fleet_manager) StdoutLine: {'line': b'running egg_info\n'}
+[3.840635] (fleet_manager) StdoutLine: {'line': b'creating fleet_manager.egg-info\n'}
+[3.840839] (fleet_manager) StdoutLine: {'line': b'writing fleet_manager.egg-info/PKG-INFO\n'}
+[3.843118] (fleet_manager) StdoutLine: {'line': b'writing dependency_links to fleet_manager.egg-info/dependency_links.txt\n'}
+[3.845703] (fleet_manager) StdoutLine: {'line': b'writing entry points to fleet_manager.egg-info/entry_points.txt\n'}
+[3.846117] (fleet_manager) StdoutLine: {'line': b'writing requirements to fleet_manager.egg-info/requires.txt\n'}
+[3.847576] (fleet_manager) StdoutLine: {'line': b'writing top-level names to fleet_manager.egg-info/top_level.txt\n'}
+[3.850389] (fleet_manager) StdoutLine: {'line': b"writing manifest file 'fleet_manager.egg-info/SOURCES.txt'\n"}
+[3.853820] (fleet_manager) StdoutLine: {'line': b"reading manifest file 'fleet_manager.egg-info/SOURCES.txt'\n"}
+[3.856351] (fleet_manager) StdoutLine: {'line': b"writing manifest file 'fleet_manager.egg-info/SOURCES.txt'\n"}
+[3.866634] (fleet_manager) StdoutLine: {'line': b'running build_ext\n'}
+[3.866938] (fleet_manager) StdoutLine: {'line': b'Creating /home/farah/ros2_ws/install/fleet_manager/lib/python3.10/site-packages/fleet-manager.egg-link (link to .)\n'}
+[3.871234] (fleet_manager) StdoutLine: {'line': b'Installing fleet_monitor script to /home/farah/ros2_ws/install/fleet_manager/lib/fleet_manager\n'}
+[3.871497] (-) TimerEvent: {}
+[3.872948] (fleet_manager) StdoutLine: {'line': b'Installing robot_simulator script to /home/farah/ros2_ws/install/fleet_manager/lib/fleet_manager\n'}
+[3.873471] (fleet_manager) StdoutLine: {'line': b'\n'}
+[3.873684] (fleet_manager) StdoutLine: {'line': b'Installed /home/farah/ros2_ws/build/fleet_manager\n'}
+[3.873883] (fleet_manager) StdoutLine: {'line': b'running symlink_data\n'}
+[3.877357] (fleet_manager) StdoutLine: {'line': b'creating /home/farah/ros2_ws/install/fleet_manager/share/ament_index\n'}
+[3.877652] (fleet_manager) StdoutLine: {'line': b'creating /home/farah/ros2_ws/install/fleet_manager/share/ament_index/resource_index\n'}
+[3.877857] (fleet_manager) StdoutLine: {'line': b'creating /home/farah/ros2_ws/install/fleet_manager/share/ament_index/resource_index/packages\n'}
+[3.879980] (fleet_manager) StdoutLine: {'line': b'symbolically linking /home/farah/ros2_ws/build/fleet_manager/resource/fleet_manager -> /home/farah/ros2_ws/install/fleet_manager/share/ament_index/resource_index/packages\n'}
+[3.880348] (fleet_manager) StdoutLine: {'line': b'symbolically linking /home/farah/ros2_ws/build/fleet_manager/package.xml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager\n'}
+[3.880798] (fleet_manager) StdoutLine: {'line': b'creating /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/launch\n'}
+[3.880996] (fleet_manager) StdoutLine: {'line': b'symbolically linking /home/farah/ros2_ws/build/fleet_manager/launch/multi_robot_fleet.launch.py -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/launch\n'}
+[3.881316] (fleet_manager) StdoutLine: {'line': b'creating /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[3.881517] (fleet_manager) StdoutLine: {'line': b'symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/cleaner_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[3.881716] (fleet_manager) StdoutLine: {'line': b'symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/scout_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[3.885175] (fleet_manager) StdoutLine: {'line': b'symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/multi_robot_fleet.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[3.885461] (fleet_manager) StdoutLine: {'line': b'symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/transporter_robot.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[3.885658] (fleet_manager) StdoutLine: {'line': b'symbolically linking /home/farah/ros2_ws/build/fleet_manager/config/fleet_monitor.yaml -> /home/farah/ros2_ws/install/fleet_manager/share/fleet_manager/config\n'}
+[3.936732] (fleet_manager) CommandEnded: {'returncode': 0}
+[3.978832] (-) TimerEvent: {}
+[3.991994] (fleet_manager) JobEnded: {'identifier': 'fleet_manager', 'rc': 0}
+[4.004563] (-) EventReactorShutdown: {}

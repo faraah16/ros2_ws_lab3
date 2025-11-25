@@ -1,0 +1,4 @@
+[console_scripts]
+fleet_monitor = fleet_manager.fleet_monitor:main
+robot_simulator = fleet_manager.robot_simulator:main
+

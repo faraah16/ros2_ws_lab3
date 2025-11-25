@@ -1,0 +1,6 @@
+{
+  "package_name": "simple_interfaces",
+  "non_idl_tuples": [
+    "/home/farah/ros2_ws/src/simple_interfaces:msg/TemperatureReading.msg"
+  ]
+}

@@ -1,0 +1,4 @@
+/home/farah/ros2_ws/build/fleet_interfaces/rosidl_adapter/fleet_interfaces:msg/RobotStatus.idl
+/home/farah/ros2_ws/build/fleet_interfaces/rosidl_adapter/fleet_interfaces:msg/FleetCommand.idl
+/home/farah/ros2_ws/build/fleet_interfaces/rosidl_adapter/fleet_interfaces:srv/AssignTask.idl
+/home/farah/ros2_ws/build/fleet_interfaces/rosidl_adapter/fleet_interfaces:srv/GetFleetStatus.idl

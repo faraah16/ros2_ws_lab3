@@ -1,0 +1,120 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fleet_interfaces/msg/RobotStatus.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Header.idl"
+
+module fleet_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "RobotStatus.msg" "\n"
+      "Comprehensive robot status for fleet management")
+    struct RobotStatus {
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "HEADER - Timestamp and reference frame" "\n"
+        "============================================")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "IDENTIFICATION - Who is this robot?" "\n"
+        "============================================" "\n"
+        "Unique identifier (e.g., \"alpha\", \"robot_01\")")
+      string robot_id;
+
+      @verbatim (language="comment", text=
+        "Type category: \"scout\", \"transporter\", \"cleaner\"")
+      string robot_type;
+
+      @verbatim (language="comment", text=
+        "Current zone/area (e.g., \"Zone_A\", \"Warehouse_2\")")
+      string location;
+
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "MOTION STATE - Where and how fast?" "\n"
+        "============================================" "\n"
+        "Position and orientation in space")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "Linear and angular velocity")
+      geometry_msgs::msg::Twist velocity;
+
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "BATTERY INFORMATION - Power status" "\n"
+        "============================================" "\n"
+        "Current voltage (e.g., 12.6V)")
+      float battery_voltage;
+
+      @verbatim (language="comment", text=
+        "Current draw/charge (negative = charging)")
+      float battery_current;
+
+      @verbatim (language="comment", text=
+        "0-100%")
+      uint8 battery_percentage;
+
+      @verbatim (language="comment", text=
+        "Currently charging?")
+      boolean is_charging;
+
+      @verbatim (language="comment", text=
+        "\"excellent\", \"good\", \"fair\", \"poor\"")
+      string battery_health;
+
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "TASK INFORMATION - What's the robot doing?" "\n"
+        "============================================" "\n"
+        "Unique task identifier")
+      string current_task_id;
+
+      @verbatim (language="comment", text=
+        "\"idle\", \"assigned\", \"executing\", \"completed\", \"failed\"")
+      string task_status;
+
+      @verbatim (language="comment", text=
+        "0-100% completion")
+      uint8 task_progress;
+
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "SYSTEM HEALTH - Is everything OK?" "\n"
+        "============================================" "\n"
+        "Can the robot operate?")
+      boolean is_operational;
+
+      @verbatim (language="comment", text=
+        "CPU temp in Celsius")
+      float cpu_temperature;
+
+      @verbatim (language="comment", text=
+        "WiFi/cellular signal strength 0-100")
+      uint8 network_signal;
+
+      @verbatim (language="comment", text=
+        "Non-critical issues")
+      sequence<string> active_warnings;
+
+      @verbatim (language="comment", text=
+        "Critical problems")
+      sequence<string> active_errors;
+
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "PERFORMANCE METRICS - Historical data" "\n"
+        "============================================" "\n"
+        "Total meters traveled")
+      float distance_traveled;
+
+      @verbatim (language="comment", text=
+        "Total tasks completed successfully")
+      uint32 tasks_completed;
+    };
+  };
+};

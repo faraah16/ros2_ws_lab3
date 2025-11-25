@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_interfaces/msg/detail/dds_fastrtps/fleet_command__type_support.cpp.o"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_interfaces/msg/detail/dds_fastrtps/fleet_command__type_support.cpp.o.d"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o.d"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_interfaces/srv/detail/dds_fastrtps/assign_task__type_support.cpp.o"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_interfaces/srv/detail/dds_fastrtps/assign_task__type_support.cpp.o.d"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_interfaces/srv/detail/dds_fastrtps/get_fleet_status__type_support.cpp.o"
+  "CMakeFiles/fleet_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_interfaces/srv/detail/dds_fastrtps/get_fleet_status__type_support.cpp.o.d"
+  "libfleet_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libfleet_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/fleet_interfaces/msg/detail/dds_fastrtps/fleet_command__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/fleet_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/fleet_interfaces/msg/detail/fleet_command__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/fleet_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/fleet_interfaces/srv/detail/assign_task__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/fleet_interfaces/srv/detail/dds_fastrtps/assign_task__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/fleet_interfaces/srv/detail/dds_fastrtps/get_fleet_status__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/fleet_interfaces/srv/detail/get_fleet_status__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/fleet_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

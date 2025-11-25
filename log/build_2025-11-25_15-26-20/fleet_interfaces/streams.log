@@ -1,0 +1,224 @@
+[0.113s] Invoking command in '/home/farah/ros2_ws/build/fleet_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farah/ros2_ws/build/fleet_interfaces -- -j2 -l2
+[0.935s] [  1%] Built target fleet_interfaces__cpp
+[1.179s] [ 12%] Built target fleet_interfaces__rosidl_generator_c
+[1.727s] [ 23%] Built target fleet_interfaces__rosidl_typesupport_cpp
+[1.807s] [ 23%] Built target ament_cmake_python_copy_fleet_interfaces
+[2.163s] [ 34%] Built target fleet_interfaces__rosidl_typesupport_fastrtps_c
+[2.210s] [ 45%] Built target fleet_interfaces__rosidl_typesupport_introspection_c
+[2.416s] [ 56%] Built target fleet_interfaces__rosidl_typesupport_c
+[2.674s] [ 67%] Built target fleet_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.872s] [ 78%] Built target fleet_interfaces__rosidl_typesupport_introspection_cpp
+[3.202s] [ 78%] Built target fleet_interfaces
+[3.433s] [ 80%] Built target fleet_interfaces__py
+[3.813s] [ 89%] Built target fleet_interfaces__rosidl_generator_py
+[4.137s] [ 92%] Built target fleet_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.506s] [ 96%] Built target fleet_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.718s] running egg_info
+[4.725s] writing fleet_interfaces.egg-info/PKG-INFO
+[4.731s] writing dependency_links to fleet_interfaces.egg-info/dependency_links.txt
+[4.733s] [100%] Built target fleet_interfaces__rosidl_typesupport_c__pyext
+[4.735s] writing top-level names to fleet_interfaces.egg-info/top_level.txt
+[4.747s] reading manifest file 'fleet_interfaces.egg-info/SOURCES.txt'
+[4.753s] writing manifest file 'fleet_interfaces.egg-info/SOURCES.txt'
+[4.878s] [100%] Built target ament_cmake_python_build_fleet_interfaces_egg
+[4.973s] Invoked command in '/home/farah/ros2_ws/build/fleet_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farah/ros2_ws/build/fleet_interfaces -- -j2 -l2
+[5.049s] Invoking command in '/home/farah/ros2_ws/build/fleet_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/farah/ros2_ws/build/fleet_interfaces
+[5.118s] -- Install configuration: ""
+[5.120s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/ament_index/resource_index/rosidl_interfaces/fleet_interfaces
+[5.127s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces
+[5.128s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv
+[5.134s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/assign_task.h
+[5.135s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/get_fleet_status.h
+[5.136s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail
+[5.140s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__functions.h
+[5.145s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__struct.h
+[5.145s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__struct.h
+[5.145s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__functions.h
+[5.146s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__functions.c
+[5.154s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__type_support.h
+[5.164s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__functions.c
+[5.166s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__type_support.h
+[5.182s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg
+[5.183s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/robot_status.h
+[5.185s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail
+[5.186s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__functions.h
+[5.189s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__type_support.h
+[5.190s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__functions.h
+[5.193s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__type_support.h
+[5.194s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__struct.h
+[5.194s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__struct.h
+[5.194s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__functions.c
+[5.199s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__functions.c
+[5.202s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/fleet_command.h
+[5.203s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.203s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/library_path.sh
+[5.206s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/library_path.dsv
+[5.213s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_generator_c.so
+[5.213s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces
+[5.214s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv
+[5.215s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail
+[5.221s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__rosidl_typesupport_fastrtps_c.h
+[5.221s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__rosidl_typesupport_fastrtps_c.h
+[5.222s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg
+[5.224s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail
+[5.224s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[5.224s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__rosidl_typesupport_fastrtps_c.h
+[5.224s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.227s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.230s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces
+[5.239s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv
+[5.240s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail
+[5.246s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__type_support.c
+[5.257s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__type_support.c
+[5.266s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__rosidl_typesupport_introspection_c.h
+[5.266s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__rosidl_typesupport_introspection_c.h
+[5.272s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg
+[5.273s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail
+[5.282s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__type_support.c
+[5.288s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__rosidl_typesupport_introspection_c.h
+[5.291s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[5.291s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__type_support.c
+[5.292s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.297s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_introspection_c.so
+[5.297s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_c.so
+[5.297s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces
+[5.298s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv
+[5.298s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/assign_task.hpp
+[5.298s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail
+[5.299s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__traits.hpp
+[5.304s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__traits.hpp
+[5.308s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__struct.hpp
+[5.309s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__builder.hpp
+[5.309s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__struct.hpp
+[5.309s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__builder.hpp
+[5.310s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__type_support.hpp
+[5.314s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__type_support.hpp
+[5.315s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/get_fleet_status.hpp
+[5.315s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg
+[5.324s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/robot_status.hpp
+[5.325s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/fleet_command.hpp
+[5.340s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail
+[5.340s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__builder.hpp
+[5.340s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__type_support.hpp
+[5.341s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__struct.hpp
+[5.344s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__traits.hpp
+[5.345s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__builder.hpp
+[5.345s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__traits.hpp
+[5.345s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__struct.hpp
+[5.346s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__type_support.hpp
+[5.348s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.349s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces
+[5.356s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv
+[5.357s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail
+[5.357s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/dds_fastrtps
+[5.357s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__rosidl_typesupport_fastrtps_cpp.hpp
+[5.358s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.360s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg
+[5.361s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail
+[5.362s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.363s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/dds_fastrtps
+[5.364s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.368s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.371s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.376s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces
+[5.379s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv
+[5.379s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail
+[5.379s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__type_support.cpp
+[5.380s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/get_fleet_status__rosidl_typesupport_introspection_cpp.hpp
+[5.390s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__rosidl_typesupport_introspection_cpp.hpp
+[5.396s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/srv/detail/assign_task__type_support.cpp
+[5.396s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg
+[5.398s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail
+[5.398s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__rosidl_typesupport_introspection_cpp.hpp
+[5.399s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__type_support.cpp
+[5.407s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/fleet_command__type_support.cpp
+[5.407s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/include/fleet_interfaces/fleet_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[5.408s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.424s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_typesupport_cpp.so
+[5.425s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/pythonpath.sh
+[5.425s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/pythonpath.dsv
+[5.426s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces-1.0.0-py3.10.egg-info
+[5.428s] -- Installing: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+[5.429s] -- Installing: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+[5.429s] -- Installing: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+[5.430s] -- Installing: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+[5.431s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces
+[5.431s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/_fleet_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.432s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv
+[5.437s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv/__init__.py
+[5.439s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv/_get_fleet_status_s.c
+[5.440s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv/_assign_task.py
+[5.440s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv/_assign_task_s.c
+[5.443s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv/_get_fleet_status.py
+[5.444s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/__init__.py
+[5.445s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg
+[5.445s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg/__init__.py
+[5.446s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg/_fleet_command_s.c
+[5.447s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg/_robot_status.py
+[5.447s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg/_robot_status_s.c
+[5.447s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg/_fleet_command.py
+[5.448s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.448s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.448s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/libfleet_interfaces__rosidl_generator_py.so
+[5.449s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.449s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/_fleet_interfaces_s.ep.rosidl_typesupport_c.c
+[5.455s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/_fleet_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.636s] Listing '/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces'...
+[5.636s] Listing '/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/msg'...
+[5.637s] Listing '/home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/srv'...
+[5.656s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.662s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.673s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/local/lib/python3.10/dist-packages/fleet_interfaces/fleet_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.688s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/lib/libfleet_interfaces__rosidl_generator_py.so
+[5.692s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/msg/RobotStatus.idl
+[5.694s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/msg/FleetCommand.idl
+[5.695s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/AssignTask.idl
+[5.695s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/GetFleetStatus.idl
+[5.698s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/msg/RobotStatus.msg
+[5.698s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/msg/FleetCommand.msg
+[5.702s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/AssignTask.srv
+[5.703s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/AssignTask_Request.msg
+[5.703s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/AssignTask_Response.msg
+[5.705s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/GetFleetStatus.srv
+[5.705s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/GetFleetStatus_Request.msg
+[5.706s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/srv/GetFleetStatus_Response.msg
+[5.711s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/ament_index/resource_index/package_run_dependencies/fleet_interfaces
+[5.711s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/ament_index/resource_index/parent_prefix_path/fleet_interfaces
+[5.712s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/ament_prefix_path.sh
+[5.714s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/ament_prefix_path.dsv
+[5.715s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/path.sh
+[5.718s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/environment/path.dsv
+[5.718s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/local_setup.bash
+[5.719s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/local_setup.sh
+[5.719s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/local_setup.zsh
+[5.719s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/local_setup.dsv
+[5.723s] -- Installing: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/package.dsv
+[5.723s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/ament_index/resource_index/packages/fleet_interfaces
+[5.724s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_generator_cExport.cmake
+[5.729s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.731s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.732s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.732s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.732s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.733s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_cExport.cmake
+[5.738s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.738s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_generator_cppExport.cmake
+[5.739s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.743s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.746s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.747s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.747s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_cppExport.cmake
+[5.751s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.752s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_generator_pyExport.cmake
+[5.753s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/export_fleet_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.753s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.753s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.754s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.758s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.759s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.759s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.760s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.761s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfacesConfig.cmake
+[5.761s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/cmake/fleet_interfacesConfig-version.cmake
+[5.763s] -- Up-to-date: /home/farah/ros2_ws/install/fleet_interfaces/share/fleet_interfaces/package.xml
+[5.780s] Invoked command in '/home/farah/ros2_ws/build/fleet_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/farah/ros2_ws/build/fleet_interfaces

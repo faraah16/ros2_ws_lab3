@@ -1,0 +1,9 @@
+{
+  "package_name": "fleet_interfaces",
+  "non_idl_tuples": [
+    "/home/farah/ros2_ws/src/fleet_interfaces:msg/RobotStatus.msg",
+    "/home/farah/ros2_ws/src/fleet_interfaces:msg/FleetCommand.msg",
+    "/home/farah/ros2_ws/src/fleet_interfaces:srv/AssignTask.srv",
+    "/home/farah/ros2_ws/src/fleet_interfaces:srv/GetFleetStatus.srv"
+  ]
+}

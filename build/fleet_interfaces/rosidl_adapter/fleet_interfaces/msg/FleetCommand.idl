@@ -1,0 +1,71 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fleet_interfaces/msg/FleetCommand.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module fleet_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "FleetCommand.msg" "\n"
+      "Command to be sent to one or more robots in the fleet")
+    struct FleetCommand {
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "COMMAND IDENTIFICATION" "\n"
+        "============================================" "\n"
+        "Unique command ID for tracking")
+      string command_id;
+
+      @verbatim (language="comment", text=
+        "When command was issued")
+      builtin_interfaces::msg::Time timestamp;
+
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "TARGET SPECIFICATION - Which robots?" "\n"
+        "============================================" "\n"
+        "Specific robots (empty = all robots)")
+      sequence<string> target_robot_ids;
+
+      @verbatim (language="comment", text=
+        "Filter by type (empty = all types)")
+      string robot_type_filter;
+
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "COMMAND DETAILS - What to do?" "\n"
+        "============================================" "\n"
+        "\"goto\", \"stop\", \"return_home\", \"charge\", \"task\"")
+      string command_type;
+
+      @verbatim (language="comment", text=
+        "Where to go (if applicable)")
+      geometry_msgs::msg::Point target_position;
+
+      @verbatim (language="comment", text=
+        "What task to perform")
+      string task_description;
+
+      @verbatim (language="comment", text=
+        "0-10, higher = more urgent")
+      uint8 priority;
+
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "EXECUTION PARAMETERS - How to do it?" "\n"
+        "============================================" "\n"
+        "Speed limit for this command (m/s)")
+      float max_velocity;
+
+      @verbatim (language="comment", text=
+        "Max time to complete (seconds)")
+      float timeout;
+
+      @verbatim (language="comment", text=
+        "Can this command be interrupted?")
+      boolean allow_interruption;
+    };
+  };
+};

@@ -1,0 +1,65 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from fleet_interfaces/srv/AssignTask.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module fleet_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "AssignTask.srv" "\n"
+      "Service to assign a task to a specific robot")
+    struct AssignTask_Request {
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "REQUEST - What task to assign" "\n"
+        "============================================" "\n"
+        "Which robot to assign to")
+      string robot_id;
+
+      @verbatim (language="comment", text=
+        "Unique task identifier")
+      string task_id;
+
+      @verbatim (language="comment", text=
+        "\"delivery\", \"patrol\", \"cleaning\"")
+      string task_type;
+
+      @verbatim (language="comment", text=
+        "Path to follow")
+      sequence<geometry_msgs::msg::Point> waypoints;
+
+      @verbatim (language="comment", text=
+        "Speed limit for this task")
+      float max_velocity;
+
+      @verbatim (language="comment", text=
+        "Expected time (seconds)")
+      float estimated_duration;
+
+      @verbatim (language="comment", text=
+        "Robot must have these (e.g., [\"gripper\", \"camera\"])")
+      sequence<string> required_capabilities;
+    };
+    struct AssignTask_Response {
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "RESPONSE - What happened" "\n"
+        "============================================" "\n"
+        "Was assignment successful?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Human-readable result")
+      string message;
+
+      @verbatim (language="comment", text=
+        "Confirmation of which robot")
+      string assigned_robot_id;
+
+      @verbatim (language="comment", text=
+        "When we expect it done (seconds from now)")
+      float estimated_completion_time;
+    };
+  };
+};

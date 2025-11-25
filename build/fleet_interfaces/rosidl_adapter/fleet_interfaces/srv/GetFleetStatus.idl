@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from fleet_interfaces/srv/GetFleetStatus.srv
+// generated code does not contain a copyright notice
+
+
+module fleet_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "GetFleetStatus.srv" "\n"
+      "Service to query current fleet status")
+    struct GetFleetStatus_Request {
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "REQUEST - What information to include" "\n"
+        "============================================" "\n"
+        "Include robots not currently reporting?")
+      boolean include_offline_robots;
+
+      @verbatim (language="comment", text=
+        "Filter by type (empty = all)")
+      string robot_type_filter;
+    };
+    struct GetFleetStatus_Response {
+      @verbatim (language="comment", text=
+        "============================================" "\n"
+        "RESPONSE - Fleet statistics" "\n"
+        "============================================" "\n"
+        "Total number of robots")
+      uint32 total_robots;
+
+      @verbatim (language="comment", text=
+        "How many are working properly")
+      uint32 operational_robots;
+
+      @verbatim (language="comment", text=
+        "Currently executing tasks")
+      uint32 robots_on_task;
+
+      @verbatim (language="comment", text=
+        "Currently charging")
+      uint32 robots_charging;
+
+      @verbatim (language="comment", text=
+        "Have critical errors")
+      uint32 robots_with_errors;
+
+      @verbatim (language="comment", text=
+        "List of all robot IDs")
+      sequence<string> robot_ids;
+
+      @verbatim (language="comment", text=
+        "Fleet average battery %")
+      float average_battery_level;
+    };
+  };
+};

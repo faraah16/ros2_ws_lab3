@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.002454] (emergency_lab3) JobQueued: {'identifier': 'emergency_lab3', 'dependencies': OrderedDict()}
+[0.006376] (emergency_lab3) JobStarted: {'identifier': 'emergency_lab3'}
+[0.100306] (-) TimerEvent: {}
+[0.203455] (-) TimerEvent: {}
+[0.305587] (-) TimerEvent: {}
+[0.407245] (-) TimerEvent: {}
+[0.508681] (-) TimerEvent: {}
+[0.613370] (-) TimerEvent: {}
+[0.716970] (-) TimerEvent: {}
+[0.818170] (-) TimerEvent: {}
+[0.922567] (-) TimerEvent: {}
+[1.027420] (-) TimerEvent: {}
+[1.130245] (-) TimerEvent: {}
+[1.233559] (-) TimerEvent: {}
+[1.338205] (-) TimerEvent: {}
+[1.440276] (-) TimerEvent: {}
+[1.543610] (-) TimerEvent: {}
+[1.647567] (-) TimerEvent: {}
+[1.749990] (-) TimerEvent: {}
+[1.851694] (-) TimerEvent: {}
+[1.954566] (-) TimerEvent: {}
+[2.057982] (-) TimerEvent: {}
+[2.164341] (-) TimerEvent: {}
+[2.266681] (-) TimerEvent: {}
+[2.382044] (-) TimerEvent: {}
+[2.491236] (-) TimerEvent: {}
+[2.596287] (-) TimerEvent: {}
+[2.702522] (-) TimerEvent: {}
+[2.810561] (-) TimerEvent: {}
+[2.912272] (-) TimerEvent: {}
+[3.018665] (-) TimerEvent: {}
+[3.124213] (-) TimerEvent: {}
+[3.231066] (-) TimerEvent: {}
+[3.333221] (-) TimerEvent: {}
+[3.437079] (-) TimerEvent: {}
+[3.541302] (-) TimerEvent: {}
+[3.646542] (-) TimerEvent: {}
+[3.753559] (-) TimerEvent: {}
+[3.866069] (-) TimerEvent: {}
+[3.970158] (-) TimerEvent: {}
+[4.074653] (-) TimerEvent: {}
+[4.178016] (-) TimerEvent: {}
+[4.284209] (-) TimerEvent: {}
+[4.387185] (-) TimerEvent: {}
+[4.493613] (-) TimerEvent: {}
+[4.603097] (-) TimerEvent: {}
+[4.705019] (-) TimerEvent: {}
+[4.818939] (-) TimerEvent: {}
+[4.928547] (-) TimerEvent: {}
+[5.032257] (-) TimerEvent: {}
+[5.137129] (-) TimerEvent: {}
+[5.240937] (-) TimerEvent: {}
+[5.348627] (-) TimerEvent: {}
+[5.363177] (emergency_lab3) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/farah/exercice1_lab3_ws/build/emergency_lab3/build', '--no-deps', 'symlink_data'], 'cwd': '/home/farah/exercice1_lab3_ws/build/emergency_lab3', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'farah', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/farah', 'OLDPWD': '/home/farah/exercice1_lab3_ws/src/emergency_lab3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1053', 'SYSTEMD_EXEC_PID': '1271', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8601', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/farah/exercice1_lab3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'farah', 'JOURNAL_STREAM': '8:20530', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'farah', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/farah-virtual-machine:@/tmp/.ICE-unix/1247,unix/farah-virtual-machine:/tmp/.ICE-unix/1247', 'INVOCATION_ID': 'ffe6a4d233944bfcb8ad9654681ab392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.140CG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:fad5fed6-e265-4802-9b80-751d6e0fd023', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/farah/exercice1_lab3_ws/build/emergency_lab3', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/farah/exercice1_lab3_ws/build/emergency_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/exercice1_lab3_ws/install/emergency_lab3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.457157] (-) TimerEvent: {}
+[5.562600] (-) TimerEvent: {}
+[5.669415] (-) TimerEvent: {}
+[5.774045] (-) TimerEvent: {}
+[5.880054] (-) TimerEvent: {}
+[5.984125] (-) TimerEvent: {}
+[6.091168] (-) TimerEvent: {}
+[6.198389] (-) TimerEvent: {}
+[6.301312] (-) TimerEvent: {}
+[6.405078] (-) TimerEvent: {}
+[6.507031] (-) TimerEvent: {}
+[6.611266] (-) TimerEvent: {}
+[6.715594] (-) TimerEvent: {}
+[6.819213] (-) TimerEvent: {}
+[6.925094] (-) TimerEvent: {}
+[7.029275] (-) TimerEvent: {}
+[7.120070] (emergency_lab3) StdoutLine: {'line': b'running develop\n'}
+[7.130855] (-) TimerEvent: {}
+[7.237373] (-) TimerEvent: {}
+[7.351946] (-) TimerEvent: {}
+[7.455957] (-) TimerEvent: {}
+[7.560998] (-) TimerEvent: {}
+[7.662002] (-) TimerEvent: {}
+[7.768408] (-) TimerEvent: {}
+[7.874066] (-) TimerEvent: {}
+[7.976530] (-) TimerEvent: {}
+[8.080688] (-) TimerEvent: {}
+[8.157323] (emergency_lab3) StdoutLine: {'line': b'running egg_info\n'}
+[8.162115] (emergency_lab3) StdoutLine: {'line': b'creating emergency_lab3.egg-info\n'}
+[8.163514] (emergency_lab3) StdoutLine: {'line': b'writing emergency_lab3.egg-info/PKG-INFO\n'}
+[8.167123] (emergency_lab3) StdoutLine: {'line': b'writing dependency_links to emergency_lab3.egg-info/dependency_links.txt\n'}
+[8.167492] (emergency_lab3) StdoutLine: {'line': b'writing entry points to emergency_lab3.egg-info/entry_points.txt\n'}
+[8.170159] (emergency_lab3) StdoutLine: {'line': b'writing requirements to emergency_lab3.egg-info/requires.txt\n'}
+[8.170531] (emergency_lab3) StdoutLine: {'line': b'writing top-level names to emergency_lab3.egg-info/top_level.txt\n'}
+[8.173101] (emergency_lab3) StdoutLine: {'line': b"writing manifest file 'emergency_lab3.egg-info/SOURCES.txt'\n"}
+[8.173528] (emergency_lab3) StdoutLine: {'line': b"reading manifest file 'emergency_lab3.egg-info/SOURCES.txt'\n"}
+[8.176036] (emergency_lab3) StdoutLine: {'line': b"writing manifest file 'emergency_lab3.egg-info/SOURCES.txt'\n"}
+[8.178951] (emergency_lab3) StdoutLine: {'line': b'running build_ext\n'}
+[8.179301] (emergency_lab3) StdoutLine: {'line': b'Creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/lib/python3.10/site-packages/emergency-lab3.egg-link (link to .)\n'}
+[8.182304] (emergency_lab3) StdoutLine: {'line': b'Installing emergency_stop script to /home/farah/exercice1_lab3_ws/install/emergency_lab3/lib/emergency_lab3\n'}
+[8.182665] (-) TimerEvent: {}
+[8.189109] (emergency_lab3) StdoutLine: {'line': b'\n'}
+[8.192391] (emergency_lab3) StdoutLine: {'line': b'Installed /home/farah/exercice1_lab3_ws/build/emergency_lab3\n'}
+[8.192925] (emergency_lab3) StdoutLine: {'line': b'running symlink_data\n'}
+[8.193245] (emergency_lab3) StdoutLine: {'line': b'creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index\n'}
+[8.193605] (emergency_lab3) StdoutLine: {'line': b'creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index/resource_index\n'}
+[8.198348] (emergency_lab3) StdoutLine: {'line': b'creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index/resource_index/packages\n'}
+[8.198928] (emergency_lab3) StdoutLine: {'line': b'symbolically linking /home/farah/exercice1_lab3_ws/build/emergency_lab3/resource/emergency_lab3 -> /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index/resource_index/packages\n'}
+[8.204552] (emergency_lab3) StdoutLine: {'line': b'symbolically linking /home/farah/exercice1_lab3_ws/build/emergency_lab3/package.xml -> /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/emergency_lab3\n'}
+[8.272468] (emergency_lab3) CommandEnded: {'returncode': 0}
+[8.283515] (-) TimerEvent: {}
+[8.365985] (emergency_lab3) JobEnded: {'identifier': 'emergency_lab3', 'rc': 0}
+[8.367210] (-) EventReactorShutdown: {}

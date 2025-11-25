@@ -1,0 +1,24 @@
+[5.362s] Invoking command in '/home/farah/exercice1_lab3_ws/build/emergency_lab3': PYTHONPATH=/home/farah/exercice1_lab3_ws/build/emergency_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/exercice1_lab3_ws/install/emergency_lab3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/farah/exercice1_lab3_ws/build/emergency_lab3/build --no-deps symlink_data
+[7.113s] running develop
+[8.151s] running egg_info
+[8.155s] creating emergency_lab3.egg-info
+[8.159s] writing emergency_lab3.egg-info/PKG-INFO
+[8.160s] writing dependency_links to emergency_lab3.egg-info/dependency_links.txt
+[8.160s] writing entry points to emergency_lab3.egg-info/entry_points.txt
+[8.163s] writing requirements to emergency_lab3.egg-info/requires.txt
+[8.166s] writing top-level names to emergency_lab3.egg-info/top_level.txt
+[8.166s] writing manifest file 'emergency_lab3.egg-info/SOURCES.txt'
+[8.169s] reading manifest file 'emergency_lab3.egg-info/SOURCES.txt'
+[8.169s] writing manifest file 'emergency_lab3.egg-info/SOURCES.txt'
+[8.172s] running build_ext
+[8.172s] Creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/lib/python3.10/site-packages/emergency-lab3.egg-link (link to .)
+[8.175s] Installing emergency_stop script to /home/farah/exercice1_lab3_ws/install/emergency_lab3/lib/emergency_lab3
+[8.185s] 
+[8.185s] Installed /home/farah/exercice1_lab3_ws/build/emergency_lab3
+[8.186s] running symlink_data
+[8.186s] creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index
+[8.191s] creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index/resource_index
+[8.191s] creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index/resource_index/packages
+[8.192s] symbolically linking /home/farah/exercice1_lab3_ws/build/emergency_lab3/resource/emergency_lab3 -> /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index/resource_index/packages
+[8.198s] symbolically linking /home/farah/exercice1_lab3_ws/build/emergency_lab3/package.xml -> /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/emergency_lab3
+[8.266s] Invoked command in '/home/farah/exercice1_lab3_ws/build/emergency_lab3' returned '0': PYTHONPATH=/home/farah/exercice1_lab3_ws/build/emergency_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/exercice1_lab3_ws/install/emergency_lab3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/farah/exercice1_lab3_ws/build/emergency_lab3/build --no-deps symlink_data

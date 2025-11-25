@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating emergency_lab3.egg-info
+writing emergency_lab3.egg-info/PKG-INFO
+writing dependency_links to emergency_lab3.egg-info/dependency_links.txt
+writing entry points to emergency_lab3.egg-info/entry_points.txt
+writing requirements to emergency_lab3.egg-info/requires.txt
+writing top-level names to emergency_lab3.egg-info/top_level.txt
+writing manifest file 'emergency_lab3.egg-info/SOURCES.txt'
+reading manifest file 'emergency_lab3.egg-info/SOURCES.txt'
+writing manifest file 'emergency_lab3.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/lib/python3.10/site-packages/emergency-lab3.egg-link (link to .)
+Installing emergency_stop script to /home/farah/exercice1_lab3_ws/install/emergency_lab3/lib/emergency_lab3
+
+Installed /home/farah/exercice1_lab3_ws/build/emergency_lab3
+running symlink_data
+creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index
+creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index/resource_index
+creating /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index/resource_index/packages
+symbolically linking /home/farah/exercice1_lab3_ws/build/emergency_lab3/resource/emergency_lab3 -> /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/ament_index/resource_index/packages
+symbolically linking /home/farah/exercice1_lab3_ws/build/emergency_lab3/package.xml -> /home/farah/exercice1_lab3_ws/install/emergency_lab3/share/emergency_lab3

@@ -1,0 +1,153 @@
+[0.636s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/farah/ros2_ws']
+[0.636s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/farah/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76d7f1fdba00>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x76d7f1fdaad0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x76d7f1fdaad0>>, mixin_verb=('list',))
+[1.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.885s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/farah/ros2_ws'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extension 'ignore'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extension 'ignore_ament_install'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extensions ['colcon_pkg']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extension 'colcon_pkg'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extensions ['colcon_meta']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extension 'colcon_meta'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extensions ['ros']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extension 'ros'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extensions ['cmake', 'python']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extension 'cmake'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extension 'python'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extensions ['python_setup_py']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws) by extension 'python_setup_py'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/build) by extension 'ignore'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/build) ignored
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extension 'ignore'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extension 'ignore_ament_install'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extensions ['colcon_pkg']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extension 'colcon_pkg'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extensions ['colcon_meta']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extension 'colcon_meta'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extensions ['ros']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extension 'ros'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extensions ['cmake', 'python']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extension 'cmake'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extension 'python'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extensions ['python_setup_py']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws) by extension 'python_setup_py'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/build) by extension 'ignore'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/build) ignored
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/install) by extension 'ignore'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/install) ignored
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/log) by extension 'ignore'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/log) ignored
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extension 'ignore'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extension 'ignore_ament_install'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extensions ['colcon_pkg']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extension 'colcon_pkg'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extensions ['colcon_meta']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extension 'colcon_meta'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extensions ['ros']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extension 'ros'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extensions ['cmake', 'python']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extension 'cmake'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extension 'python'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extensions ['python_setup_py']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src) by extension 'python_setup_py'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src/emergency_lab3) by extensions ['ignore', 'ignore_ament_install']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src/emergency_lab3) by extension 'ignore'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src/emergency_lab3) by extension 'ignore_ament_install'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src/emergency_lab3) by extensions ['colcon_pkg']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src/emergency_lab3) by extension 'colcon_pkg'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src/emergency_lab3) by extensions ['colcon_meta']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src/emergency_lab3) by extension 'colcon_meta'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src/emergency_lab3) by extensions ['ros']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/exercice1_lab3_ws/src/emergency_lab3) by extension 'ros'
+[2.043s] DEBUG:colcon.colcon_core.package_identification:Package '/home/farah/ros2_ws/exercice1_lab3_ws/src/emergency_lab3' with type 'ros.ament_python' and name 'emergency_lab3'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/install) by extension 'ignore'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/install) ignored
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/log) by extension 'ignore'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/log) ignored
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extension 'ignore'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extension 'ignore_ament_install'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extensions ['colcon_pkg']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extension 'colcon_pkg'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extensions ['colcon_meta']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extension 'colcon_meta'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extensions ['ros']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extension 'ros'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extensions ['cmake', 'python']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extension 'cmake'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extension 'python'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extensions ['python_setup_py']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src) by extension 'python_setup_py'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/custom_interfaces) by extension 'ignore'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/custom_interfaces) by extension 'ignore_ament_install'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/custom_interfaces) by extensions ['colcon_pkg']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/custom_interfaces) by extension 'colcon_pkg'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/custom_interfaces) by extensions ['colcon_meta']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/custom_interfaces) by extension 'colcon_meta'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/custom_interfaces) by extensions ['ros']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/custom_interfaces) by extension 'ros'
+[2.073s] DEBUG:colcon.colcon_core.package_identification:Package '/home/farah/ros2_ws/src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_interfaces) by extension 'ignore'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_interfaces) by extension 'ignore_ament_install'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_interfaces) by extensions ['colcon_pkg']
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_interfaces) by extension 'colcon_pkg'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_interfaces) by extensions ['colcon_meta']
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_interfaces) by extension 'colcon_meta'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_interfaces) by extensions ['ros']
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_interfaces) by extension 'ros'
+[2.079s] DEBUG:colcon.colcon_core.package_identification:Package '/home/farah/ros2_ws/src/fleet_interfaces' with type 'ros.ament_cmake' and name 'fleet_interfaces'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_manager) by extensions ['ignore', 'ignore_ament_install']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_manager) by extension 'ignore'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_manager) by extension 'ignore_ament_install'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_manager) by extensions ['colcon_pkg']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_manager) by extension 'colcon_pkg'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_manager) by extensions ['colcon_meta']
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_manager) by extension 'colcon_meta'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_manager) by extensions ['ros']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/fleet_manager) by extension 'ros'
+[2.086s] DEBUG:colcon.colcon_core.package_identification:Package '/home/farah/ros2_ws/src/fleet_manager' with type 'ros.ament_python' and name 'fleet_manager'
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/robot_actions) by extensions ['ignore', 'ignore_ament_install']
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/robot_actions) by extension 'ignore'
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/robot_actions) by extension 'ignore_ament_install'
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/robot_actions) by extensions ['colcon_pkg']
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/robot_actions) by extension 'colcon_pkg'
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/robot_actions) by extensions ['colcon_meta']
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/robot_actions) by extension 'colcon_meta'
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/robot_actions) by extensions ['ros']
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/robot_actions) by extension 'ros'
+[2.091s] DEBUG:colcon.colcon_core.package_identification:Package '/home/farah/ros2_ws/src/robot_actions' with type 'ros.ament_python' and name 'robot_actions'
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_interfaces) by extension 'ignore'
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_interfaces) by extension 'ignore_ament_install'
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_interfaces) by extensions ['colcon_pkg']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_interfaces) by extension 'colcon_pkg'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_interfaces) by extensions ['colcon_meta']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_interfaces) by extension 'colcon_meta'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_interfaces) by extensions ['ros']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_interfaces) by extension 'ros'
+[2.095s] DEBUG:colcon.colcon_core.package_identification:Package '/home/farah/ros2_ws/src/simple_interfaces' with type 'ros.ament_cmake' and name 'simple_interfaces'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_params) by extensions ['ignore', 'ignore_ament_install']
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_params) by extension 'ignore'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_params) by extension 'ignore_ament_install'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_params) by extensions ['colcon_pkg']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_params) by extension 'colcon_pkg'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_params) by extensions ['colcon_meta']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_params) by extension 'colcon_meta'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_params) by extensions ['ros']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/farah/ros2_ws/src/simple_params) by extension 'ros'
+[2.101s] DEBUG:colcon.colcon_core.package_identification:Package '/home/farah/ros2_ws/src/simple_params' with type 'ros.ament_python' and name 'simple_params'
+[2.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

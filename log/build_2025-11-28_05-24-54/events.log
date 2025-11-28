@@ -1,0 +1,412 @@
+[0.000000] (-) TimerEvent: {}
+[0.001403] (-) JobUnselected: {'identifier': 'emergency_lab3'}
+[0.001488] (-) JobUnselected: {'identifier': 'fleet_interfaces'}
+[0.001520] (-) JobUnselected: {'identifier': 'fleet_manager'}
+[0.001540] (-) JobUnselected: {'identifier': 'simple_interfaces'}
+[0.001557] (-) JobUnselected: {'identifier': 'simple_params'}
+[0.001577] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.001598] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.019898] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.020433] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/farah/ros2_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/farah/ros2_ws/install/custom_interfaces'], 'cwd': '/home/farah/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'farah'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farah'), ('OLDPWD', '/home/farah/ros2_ws/src/custom_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1025'), ('SYSTEMD_EXEC_PID', '1288'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2294'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'farah'), ('JOURNAL_STREAM', '8:20019'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'farah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/farah-virtual-machine:@/tmp/.ICE-unix/1263,unix/farah-virtual-machine:/tmp/.ICE-unix/1263'), ('INVOCATION_ID', 'a86bf3d2f87c475380d647e24bbe8f35'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NFGRG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2f485577-30e0-47c9-8f60-33ac519c78c3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farah/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100349] (-) TimerEvent: {}
+[0.202380] (-) TimerEvent: {}
+[0.303135] (-) TimerEvent: {}
+[0.382824] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.403270] (-) TimerEvent: {}
+[0.503933] (-) TimerEvent: {}
+[0.570393] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.599237] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.604375] (-) TimerEvent: {}
+[0.706389] (-) TimerEvent: {}
+[0.761407] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.772989] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.775495] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.778032] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.790339] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.806572] (-) TimerEvent: {}
+[0.908826] (-) TimerEvent: {}
+[0.936560] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.946053] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.947521] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.947651] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.988098] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.008939] (-) TimerEvent: {}
+[1.109229] (-) TimerEvent: {}
+[1.211078] (-) TimerEvent: {}
+[1.223704] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.311859] (-) TimerEvent: {}
+[1.412413] (-) TimerEvent: {}
+[1.437956] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.458252] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.485343] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.512566] (-) TimerEvent: {}
+[1.602240] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.614318] (-) TimerEvent: {}
+[1.700201] (custom_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[1.714429] (-) TimerEvent: {}
+[1.815458] (-) TimerEvent: {}
+[1.918337] (-) TimerEvent: {}
+[2.018714] (-) TimerEvent: {}
+[2.120287] (-) TimerEvent: {}
+[2.210520] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.220919] (-) TimerEvent: {}
+[2.321423] (-) TimerEvent: {}
+[2.423544] (-) TimerEvent: {}
+[2.526343] (-) TimerEvent: {}
+[2.536048] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.626491] (-) TimerEvent: {}
+[2.726862] (-) TimerEvent: {}
+[2.828200] (-) TimerEvent: {}
+[2.931117] (-) TimerEvent: {}
+[2.956678] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.002464] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.008186] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.031471] (-) TimerEvent: {}
+[3.050478] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.050917] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.051031] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.051143] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.095902] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.131679] (-) TimerEvent: {}
+[3.220673] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.231793] (-) TimerEvent: {}
+[3.311382] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.332032] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/farah/ros2_ws/build/custom_interfaces\n'}
+[3.333218] (-) TimerEvent: {}
+[3.347352] (custom_interfaces) CommandEnded: {'returncode': 0}
+[3.347827] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[3.347858] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/farah/ros2_ws/build/custom_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/farah/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'farah'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farah'), ('OLDPWD', '/home/farah/ros2_ws/src/custom_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1025'), ('SYSTEMD_EXEC_PID', '1288'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2294'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'farah'), ('JOURNAL_STREAM', '8:20019'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'farah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/farah-virtual-machine:@/tmp/.ICE-unix/1263,unix/farah-virtual-machine:/tmp/.ICE-unix/1263'), ('INVOCATION_ID', 'a86bf3d2f87c475380d647e24bbe8f35'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NFGRG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2f485577-30e0-47c9-8f60-33ac519c78c3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farah/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.433685] (-) TimerEvent: {}
+[3.446480] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.482702] (custom_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.534008] (-) TimerEvent: {}
+[3.635509] (-) TimerEvent: {}
+[3.739648] (-) TimerEvent: {}
+[3.845239] (-) TimerEvent: {}
+[3.945823] (-) TimerEvent: {}
+[4.047163] (-) TimerEvent: {}
+[4.148176] (-) TimerEvent: {}
+[4.251346] (-) TimerEvent: {}
+[4.356092] (-) TimerEvent: {}
+[4.456535] (-) TimerEvent: {}
+[4.562365] (-) TimerEvent: {}
+[4.663629] (-) TimerEvent: {}
+[4.764352] (-) TimerEvent: {}
+[4.786901] (custom_interfaces) StdoutLine: {'line': b'[  6%] Built target custom_interfaces__cpp\n'}
+[4.865175] (-) TimerEvent: {}
+[4.878439] (custom_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[4.908896] (custom_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.966417] (-) TimerEvent: {}
+[5.068010] (-) TimerEvent: {}
+[5.120334] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/charge_battery__functions.c.o\x1b[0m\n'}
+[5.168126] (-) TimerEvent: {}
+[5.271838] (-) TimerEvent: {}
+[5.372761] (-) TimerEvent: {}
+[5.475743] (-) TimerEvent: {}
+[5.539432] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.575859] (-) TimerEvent: {}
+[5.663449] (custom_interfaces) StdoutLine: {'line': b'[ 16%] Built target custom_interfaces__rosidl_generator_c\n'}
+[5.679403] (-) TimerEvent: {}
+[5.700652] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.781334] (-) TimerEvent: {}
+[5.883362] (-) TimerEvent: {}
+[5.975445] (custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/charge_battery__type_support.cpp.o\x1b[0m\n'}
+[5.983462] (-) TimerEvent: {}
+[6.083879] (-) TimerEvent: {}
+[6.184197] (-) TimerEvent: {}
+[6.284721] (-) TimerEvent: {}
+[6.385554] (-) TimerEvent: {}
+[6.485849] (-) TimerEvent: {}
+[6.587902] (-) TimerEvent: {}
+[6.690339] (-) TimerEvent: {}
+[6.792344] (-) TimerEvent: {}
+[6.892828] (-) TimerEvent: {}
+[6.942577] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/charge_battery__type_support.cpp.o\x1b[0m\n'}
+[6.992949] (-) TimerEvent: {}
+[7.101347] (-) TimerEvent: {}
+[7.202224] (-) TimerEvent: {}
+[7.304838] (-) TimerEvent: {}
+[7.401087] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.405390] (-) TimerEvent: {}
+[7.506512] (-) TimerEvent: {}
+[7.513679] (custom_interfaces) StdoutLine: {'line': b'[ 29%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[7.537145] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.607906] (-) TimerEvent: {}
+[7.709964] (-) TimerEvent: {}
+[7.812342] (-) TimerEvent: {}
+[7.912780] (-) TimerEvent: {}
+[8.013242] (-) TimerEvent: {}
+[8.114365] (-) TimerEvent: {}
+[8.215089] (-) TimerEvent: {}
+[8.315705] (-) TimerEvent: {}
+[8.406452] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.415818] (-) TimerEvent: {}
+[8.523407] (-) TimerEvent: {}
+[8.618350] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/charge_battery__type_support.cpp.o\x1b[0m\n'}
+[8.624468] (-) TimerEvent: {}
+[8.693362] (custom_interfaces) StdoutLine: {'line': b'[ 38%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.726265] (-) TimerEvent: {}
+[8.827822] (-) TimerEvent: {}
+[8.928506] (-) TimerEvent: {}
+[9.033006] (-) TimerEvent: {}
+[9.133318] (-) TimerEvent: {}
+[9.236376] (-) TimerEvent: {}
+[9.284866] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[9.286017] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[9.287721] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[9.288105] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[9.289805] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[9.294505] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[9.302425] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[9.308118] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[9.338203] (-) TimerEvent: {}
+[9.405697] (custom_interfaces) StdoutLine: {'line': b'[ 38%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[9.430367] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.438317] (-) TimerEvent: {}
+[9.538755] (-) TimerEvent: {}
+[9.639589] (-) TimerEvent: {}
+[9.741640] (-) TimerEvent: {}
+[9.841996] (-) TimerEvent: {}
+[9.942569] (-) TimerEvent: {}
+[10.042963] (-) TimerEvent: {}
+[10.144349] (-) TimerEvent: {}
+[10.244921] (-) TimerEvent: {}
+[10.345405] (-) TimerEvent: {}
+[10.434148] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.446371] (-) TimerEvent: {}
+[10.548747] (-) TimerEvent: {}
+[10.571682] (custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/charge_battery__type_support_c.cpp.o\x1b[0m\n'}
+[10.649196] (-) TimerEvent: {}
+[10.754060] (-) TimerEvent: {}
+[10.773509] (custom_interfaces) StdoutLine: {'line': b'[ 48%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.854361] (-) TimerEvent: {}
+[10.956470] (-) TimerEvent: {}
+[11.057111] (-) TimerEvent: {}
+[11.158441] (-) TimerEvent: {}
+[11.258901] (-) TimerEvent: {}
+[11.319360] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.359024] (-) TimerEvent: {}
+[11.460722] (-) TimerEvent: {}
+[11.550473] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[11.563884] (-) TimerEvent: {}
+[11.610073] (custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.668106] (-) TimerEvent: {}
+[11.773151] (-) TimerEvent: {}
+[11.874380] (-) TimerEvent: {}
+[11.975682] (-) TimerEvent: {}
+[12.079782] (-) TimerEvent: {}
+[12.180782] (-) TimerEvent: {}
+[12.281451] (-) TimerEvent: {}
+[12.382552] (-) TimerEvent: {}
+[12.483897] (-) TimerEvent: {}
+[12.585448] (-) TimerEvent: {}
+[12.686038] (-) TimerEvent: {}
+[12.744362] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/charge_battery__type_support.c.o\x1b[0m\n'}
+[12.786392] (-) TimerEvent: {}
+[12.871970] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.886484] (-) TimerEvent: {}
+[12.950251] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[12.983166] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.987365] (-) TimerEvent: {}
+[13.087656] (-) TimerEvent: {}
+[13.188050] (-) TimerEvent: {}
+[13.289367] (-) TimerEvent: {}
+[13.389830] (-) TimerEvent: {}
+[13.490370] (-) TimerEvent: {}
+[13.536405] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/charge_battery__type_support.cpp.o\x1b[0m\n'}
+[13.590477] (-) TimerEvent: {}
+[13.621402] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.690641] (-) TimerEvent: {}
+[13.701946] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[13.740999] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[13.783567] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.791352] (-) TimerEvent: {}
+[13.891795] (-) TimerEvent: {}
+[13.992535] (-) TimerEvent: {}
+[14.094111] (-) TimerEvent: {}
+[14.195058] (-) TimerEvent: {}
+[14.296350] (-) TimerEvent: {}
+[14.396703] (-) TimerEvent: {}
+[14.497454] (-) TimerEvent: {}
+[14.598397] (-) TimerEvent: {}
+[14.699605] (-) TimerEvent: {}
+[14.800452] (-) TimerEvent: {}
+[14.902338] (-) TimerEvent: {}
+[15.003164] (-) TimerEvent: {}
+[15.104541] (-) TimerEvent: {}
+[15.207624] (-) TimerEvent: {}
+[15.224838] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[15.283010] (custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/action/_charge_battery_s.c.o\x1b[0m\n'}
+[15.308734] (-) TimerEvent: {}
+[15.409131] (-) TimerEvent: {}
+[15.510392] (-) TimerEvent: {}
+[15.612379] (-) TimerEvent: {}
+[15.682000] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[15.712532] (-) TimerEvent: {}
+[15.777190] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__rosidl_generator_py\n'}
+[15.812649] (-) TimerEvent: {}
+[15.814474] (custom_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.912771] (-) TimerEvent: {}
+[16.013788] (-) TimerEvent: {}
+[16.034828] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.113844] (-) TimerEvent: {}
+[16.126445] (custom_interfaces) StdoutLine: {'line': b'[ 87%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.178354] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.213974] (-) TimerEvent: {}
+[16.314783] (-) TimerEvent: {}
+[16.415188] (-) TimerEvent: {}
+[16.422383] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.516418] (-) TimerEvent: {}
+[16.536667] (custom_interfaces) StdoutLine: {'line': b'[ 93%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[16.612218] (custom_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.616551] (-) TimerEvent: {}
+[16.717978] (-) TimerEvent: {}
+[16.819353] (-) TimerEvent: {}
+[16.854503] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.919470] (-) TimerEvent: {}
+[16.929013] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[16.953582] (custom_interfaces) CommandEnded: {'returncode': 0}
+[16.956512] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[16.977588] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/farah/ros2_ws/build/custom_interfaces'], 'cwd': '/home/farah/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'farah'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farah'), ('OLDPWD', '/home/farah/ros2_ws/src/custom_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1025'), ('SYSTEMD_EXEC_PID', '1288'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2294'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'farah'), ('JOURNAL_STREAM', '8:20019'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'farah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/farah-virtual-machine:@/tmp/.ICE-unix/1263,unix/farah-virtual-machine:/tmp/.ICE-unix/1263'), ('INVOCATION_ID', 'a86bf3d2f87c475380d647e24bbe8f35'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NFGRG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2f485577-30e0-47c9-8f60-33ac519c78c3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farah/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.995232] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.995874] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[16.996312] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[16.997484] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[16.997643] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/charge_battery.h\n'}
+[16.997715] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[16.997781] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__functions.c\n'}
+[16.997857] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__struct.h\n'}
+[16.997922] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__type_support.h\n'}
+[16.997985] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__functions.h\n'}
+[16.998048] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[16.999463] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.999680] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[16.999794] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[16.999862] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[16.999926] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[17.002510] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[17.002597] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[17.002666] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[17.002731] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__rosidl_typesupport_fastrtps_c.h\n'}
+[17.002796] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[17.002860] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.002930] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[17.002996] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.003060] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[17.003151] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[17.003218] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[17.003297] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__rosidl_typesupport_introspection_c.h\n'}
+[17.003377] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__type_support.c\n'}
+[17.003458] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[17.003534] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.003651] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[17.005325] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.005490] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[17.005799] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[17.006016] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[17.006203] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[17.008617] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/charge_battery.hpp\n'}
+[17.008748] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[17.008912] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__traits.hpp\n'}
+[17.009002] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__builder.hpp\n'}
+[17.009132] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__struct.hpp\n'}
+[17.009212] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__type_support.hpp\n'}
+[17.009389] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[17.009500] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[17.009569] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[17.009704] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[17.009785] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[17.009850] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps\n'}
+[17.009915] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.009979] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[17.010042] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.012318] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.012525] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.012600] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[17.012667] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[17.012749] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[17.012831] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__type_support.cpp\n'}
+[17.015403] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/charge_battery__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.015481] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[17.015549] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.015614] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[17.015719] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[17.015791] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[17.015856] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[17.015919] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[17.015982] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[17.016046] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[17.016118] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[17.016190] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[17.016254] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[17.016416] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[17.016506] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action\n'}
+[17.016587] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py\n'}
+[17.016671] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_charge_battery_s.c\n'}
+[17.016751] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_charge_battery.py\n'}
+[17.016831] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.016910] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.016987] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[17.017058] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.017124] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[17.018650] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.018777] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.021307] (-) TimerEvent: {}
+[17.101952] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[17.102174] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...\n"}
+[17.102255] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action'...\n"}
+[17.102403] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py'...\n"}
+[17.102480] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_charge_battery.py'...\n"}
+[17.115334] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.115604] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.115702] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.115779] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.116351] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.116491] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.116763] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[17.117302] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/farah/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[17.117515] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/ChargeBattery.idl\n'}
+[17.117750] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/ChargeBattery.action\n'}
+[17.118031] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[17.118352] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[17.120397] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[17.120540] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[17.120619] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[17.120693] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[17.120761] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[17.121413] (-) TimerEvent: {}
+[17.122441] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[17.122684] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[17.122849] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[17.122995] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[17.123283] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[17.123441] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[17.124316] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.124457] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.124549] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.124638] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.125688] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.125809] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[17.125922] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.126010] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[17.126121] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.126349] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.126634] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.126821] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.131328] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[17.131538] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.131722] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[17.131817] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.131887] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[17.131965] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.132050] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.132133] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.132209] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.132362] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.132458] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.132742] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[17.133097] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[17.133388] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/farah/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[17.140345] (custom_interfaces) CommandEnded: {'returncode': 0}
+[17.209895] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[17.211355] (-) EventReactorShutdown: {}

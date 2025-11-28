@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/ChargeBattery.action
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "========================================" "\n"
+      "GOAL - What the client wants" "\n"
+      "========================================" "\n"
+      "Target battery percentage (0-100)")
+    struct ChargeBattery_Goal {
+      int32 target_percentage;
+    };
+    struct ChargeBattery_Result {
+      @verbatim (language="comment", text=
+        "========================================" "\n"
+        "RESULT - What happened when finished" "\n"
+        "========================================" "\n"
+        "Did charging complete successfully?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Final battery percentage achieved")
+      int32 final_percentage;
+
+      @verbatim (language="comment", text=
+        "Total time taken (seconds)")
+      float charging_time;
+    };
+    struct ChargeBattery_Feedback {
+      @verbatim (language="comment", text=
+        "========================================" "\n"
+        "FEEDBACK - Progress during charging" "\n"
+        "========================================" "\n"
+        "Current battery percentage")
+      int32 current_percentage;
+
+      @verbatim (language="comment", text=
+        "Estimated time remaining (seconds)")
+      float time_remaining;
+
+      @verbatim (language="comment", text=
+        "Current charging rate (%/second)")
+      float charging_rate;
+    };
+  };
+};

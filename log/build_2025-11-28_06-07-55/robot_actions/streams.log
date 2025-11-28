@@ -1,0 +1,25 @@
+[0.858s] Invoking command in '/home/farah/ros2_ws/src/robot_actions': CMAKE_PREFIX_PATH=/home/farah/ros2_ws/install/custom_interfaces:/home/farah/ros2_ws/install/simple_interfaces:/home/farah/ros2_ws/install/fleet_interfaces LD_LIBRARY_PATH=/home/farah/ros2_ws/install/custom_interfaces/lib:/home/farah/ros2_ws/install/simple_interfaces/lib:/home/farah/ros2_ws/install/fleet_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/farah/ros2_ws/build/robot_actions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/ros2_ws/install/robot_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_actions build --build-base /home/farah/ros2_ws/build/robot_actions/build install --record /home/farah/ros2_ws/build/robot_actions/install.log --single-version-externally-managed install_data
+[1.170s] running egg_info
+[1.171s] writing ../../build/robot_actions/robot_actions.egg-info/PKG-INFO
+[1.171s] writing dependency_links to ../../build/robot_actions/robot_actions.egg-info/dependency_links.txt
+[1.171s] writing entry points to ../../build/robot_actions/robot_actions.egg-info/entry_points.txt
+[1.172s] writing requirements to ../../build/robot_actions/robot_actions.egg-info/requires.txt
+[1.172s] writing top-level names to ../../build/robot_actions/robot_actions.egg-info/top_level.txt
+[1.173s] reading manifest file '../../build/robot_actions/robot_actions.egg-info/SOURCES.txt'
+[1.174s] writing manifest file '../../build/robot_actions/robot_actions.egg-info/SOURCES.txt'
+[1.175s] running build
+[1.175s] running build_py
+[1.175s] copying robot_actions/battery_client.py -> /home/farah/ros2_ws/build/robot_actions/build/lib/robot_actions
+[1.175s] running install
+[1.176s] running install_lib
+[1.176s] copying /home/farah/ros2_ws/build/robot_actions/build/lib/robot_actions/battery_client.py -> /home/farah/ros2_ws/install/robot_actions/lib/python3.10/site-packages/robot_actions
+[1.177s] byte-compiling /home/farah/ros2_ws/install/robot_actions/lib/python3.10/site-packages/robot_actions/battery_client.py to battery_client.cpython-310.pyc
+[1.179s] running install_data
+[1.180s] running install_egg_info
+[1.182s] removing '/home/farah/ros2_ws/install/robot_actions/lib/python3.10/site-packages/robot_actions-0.0.0-py3.10.egg-info' (and everything under it)
+[1.182s] Copying ../../build/robot_actions/robot_actions.egg-info to /home/farah/ros2_ws/install/robot_actions/lib/python3.10/site-packages/robot_actions-0.0.0-py3.10.egg-info
+[1.183s] running install_scripts
+[1.206s] Installing battery_charger script to /home/farah/ros2_ws/install/robot_actions/lib/robot_actions
+[1.207s] Installing battery_client script to /home/farah/ros2_ws/install/robot_actions/lib/robot_actions
+[1.207s] writing list of installed files to '/home/farah/ros2_ws/build/robot_actions/install.log'
+[1.244s] Invoked command in '/home/farah/ros2_ws/src/robot_actions' returned '0': CMAKE_PREFIX_PATH=/home/farah/ros2_ws/install/custom_interfaces:/home/farah/ros2_ws/install/simple_interfaces:/home/farah/ros2_ws/install/fleet_interfaces LD_LIBRARY_PATH=/home/farah/ros2_ws/install/custom_interfaces/lib:/home/farah/ros2_ws/install/simple_interfaces/lib:/home/farah/ros2_ws/install/fleet_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/farah/ros2_ws/build/robot_actions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/ros2_ws/install/robot_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_actions build --build-base /home/farah/ros2_ws/build/robot_actions/build install --record /home/farah/ros2_ws/build/robot_actions/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+Invoking command in '/home/farah/ros2_ws/build/robotics_sim_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/ros2_ws/src/robotics_sim_project -DCMAKE_INSTALL_PREFIX=/home/farah/ros2_ws/install/robotics_sim_project
+Invoked command in '/home/farah/ros2_ws/build/robotics_sim_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/ros2_ws/src/robotics_sim_project -DCMAKE_INSTALL_PREFIX=/home/farah/ros2_ws/install/robotics_sim_project
+Invoking command in '/home/farah/ros2_ws/build/robotics_sim_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farah/ros2_ws/build/robotics_sim_project -- -j2 -l2
+Invoked command in '/home/farah/ros2_ws/build/robotics_sim_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farah/ros2_ws/build/robotics_sim_project -- -j2 -l2
+Invoking command in '/home/farah/ros2_ws/build/robotics_sim_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/farah/ros2_ws/build/robotics_sim_project
+Invoked command in '/home/farah/ros2_ws/build/robotics_sim_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/farah/ros2_ws/build/robotics_sim_project

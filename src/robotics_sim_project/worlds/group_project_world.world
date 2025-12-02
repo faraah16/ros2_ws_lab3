@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="group_project_world">
+    
+    <!-- Physics -->
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    
+    <!-- Lighting -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    
+    <!-- Ground -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    
+    <!-- Scene -->
+    <scene>
+      <ambient>0.5 0.5 0.5 1</ambient>
+      <background>0.8 0.9 1.0 1</background>
+      <shadows>true</shadows>
+    </scene>
+    
+    <!-- STATIC OBSTACLE 1: Wall -->
+    <model name="wall_1">
+      <static>true</static>
+      <pose>2 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.2 4.0 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.2 4.0 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    
+    <!-- STATIC OBSTACLE 2: Ramp -->
+    <model name="ramp_1">
+      <static>true</static>
+      <pose>-2 -2 0.25 0 0.3 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2.0 1.5 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2.0 1.5 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.6 0.4 1</ambient>
+            <diffuse>0.8 0.6 0.4 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    
+    <!-- STATIC OBSTACLE 3: Platform -->
+    <model name="platform_1">
+      <static>true</static>
+      <pose>0 3 0.3 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2.0 2.0 0.6</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2.0 2.0 0.6</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.3 0.3 0.8 1</ambient>
+            <diffuse>0.3 0.3 0.8 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>
